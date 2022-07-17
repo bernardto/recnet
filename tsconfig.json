@@ -1,0 +1,982 @@
+{
+
+    "data" : [
+        {
+            "type ": 2,
+            "question" : "L'analyse descriptive vous dit _",
+            "proposition" : {
+                "1" : "Ce qui est le plus susceptible de se produire dans le futur.",
+                "2" : "Ce qui s'est passé dans le passé.",
+                "3" : "Quelles actions vous pouvez effectuer pour affecter les résultats.",
+                "4" : "Pourquoi quelque chose s'est produit dans le passé."
+
+            },
+            "reponse" : "B"
+        },
+
+        {
+            "type ": 1,
+            "question" : "La normalisation consiste à éliminer les relationsentre les tables de la base de données.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "La normalisation d'une base de données réduit la redondance des données.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "La normalisation améliore l'intégrité des données.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 2,
+            "question" : "Un processus d'extraction, de transformation et de chargement (ETL) nécessite",
+            "proposition" : {
+                "1" : "un schéma correspondant dans la source de données et la cible de données.",
+                "2" : "un magasin de données cible suffisamment puissant pour transformer les données. ",
+                "3" : "données entièrement traitées avant d'être chargées dans le magasin de données cible.",
+                "4" : "que la cible de données soit une base de données relationnelle."
+
+            },
+            "reponse" : "D"
+        },
+        {
+            "type ": 2,
+            "question" : "Dans le traitement par lots,",
+            "proposition" : {
+                "1" : "les données sont toujours insérées une ligne à la fois.",
+                "2" : "les données sont traitées en temps réel.",
+                "3" : "une latence est attendue.",
+                "4" : "la voiture de traitement ne s'exécute qu'en série."
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "La transcription de fichiers audio est un exemple de",
+            "proposition" : {
+
+                "1" : "cognitif",
+                "2" : "descriptif",
+                "3" : "prédictif",
+                "4" : "prescriptif"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Le moteur de traitement massivement parallèle (MPP) d'Azure\nSynapse Analytique",
+            "proposition" : {
+                "1" : "répartit le traitement sur les nœuds de calcul.",
+                "2" : "répartit le traitement entre les nœuds de contrôle.",
+                "3" : "redirige les connexions client entre les nœuds de calcul.",
+                "4" : "redirige les connexions client entre les nœuds de contrôle."
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Une base de données relationnelle doit être utilisée lorsque",
+            "proposition" : {
+                "1" : "un schéma dynamique est requis.",
+                "2" : "les données seront stockées sous forme de paires clé/valeur.",
+                "3" : "stocker de grandes images et vidéos.",
+                "4" : "de solides garanties de cohérence sont requises."
+
+            },
+            "reponse" : "D"
+        },
+        {
+            "type ": 2,
+            "question" : "Relational data uses ___ to enforce relationships between different tables.",
+            "proposition" : {
+                "1" : "collections",
+                "2" : "columns",
+                "3" : "keys",
+                "4" : "partitions"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "is a virtual table that contains content defined by a query.",
+            "proposition" : {
+                "1" : "A heap",
+                "2" : "A stored procedure",
+                "3" : "A view",
+                "4" : "An index"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 3,
+            "question" : "Vous devez interroger une table nommée Products dans une base de données Azure SQL.\n\n\nQuelles sont les trois conditions à remplir pour interroger la table depuis Internet ? Chaque bonne réponse présente une partie de la solution. (Choisissez trois.)",
+            "proposition" : {
+                "1" : "Le rôle Lecteur doit vous être attribué pour le groupe de ressources qui contient la base de données.",
+                "2" : "Vous devez disposer d'un accès SELECT à la table Produits.",
+                "3" : "Vous devez avoir un utilisateur dans la base de données.",
+                "4" : "Le rôle Contributeur doit vous être attribué pour le groupe de ressources qui contient la base de données.",
+                "5" : "Votre adresse IP doit être autorisée à se connecter à la base de données."
+
+            },
+            "reponse" : "ACE"
+        },
+        {
+            "type ": 2,
+            "question" : "Votre entreprise a besoin d'implémenter une base de données relationnelle dans Azure. La solution doit minimiser la maintenance continue.\n\nQuel service Azure devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Azure HDInsight",
+                "2" : "Base de données SQL Azure",
+                "3" : "Azure Cosmos DB",
+                "4" : "SQL Server sur les machines virtuelles Azure"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous écrivez un ensemble de requêtes SQL que les administrateurs utiliseront pour dépanner une base de données Azure SQL. ous devez intégrer des documents et des résultats de requête dans un bloc-notes SQL. Que devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Microsoft SQL Server Management Studio (SSMS)",
+                "2" : "Studio de données Azure",
+                "3" : "CLI Azure",
+                "4" : "Azure PowerShell"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : " Quel outil de ligne de commande pouvez-vous utiliser pour interroger les bases de données Azure SQL ?",
+            "proposition" : {
+                "1" : "sqlcmd",
+                "2" : "bcp",
+                "3" : "azdata",
+                "4" : "CLI Azure"
+
+            },
+            "reponse" : "D"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure SQL Database inclut un service de sauvegarde entièrement géré.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure SQL Database dispose d'une haute disponibilité intégrée.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure SQL Database peut utiliser Azure Advanced Threat Protection (ATP).",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous pouvez utiliser Azure Data Studio pour interroger un Microsoft SQL\nCluster de serveur de données volumineuses.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous pouvez utiliser Microsoft SQL Server Management Studio\n(SSMS) pour interroger une donnée Azure Synapse Analytics\ndépot.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous pouvez utiliser MYSQL Workbench pour interroger la base de données Azure\npour les bases de données MariaDB.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Offres de base de données de plate-forme en tant que service (PaaS) dans Azure\noffrent une haute disponibilité intégrée.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Offres de base de données de plate-forme en tant que service (PaaS) dans Azure\nfournir des options de mise à l'échelle configurables.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Offres de base de données de plate-forme en tant que service (PaaS) dans Azure\nréduire les frais administratifs liés à la gestion du matériel.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous devez appliquer régulièrement des correctifs aux bases de données Azure SQL.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous avez besoin d'un abonnement Microsoft 365 pour créer un Azure\nBase de données SQL.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous pouvez utiliser les licences Microsoft SQL Server existantes pour\nréduire le coût des bases de données Azure SQL.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 2,
+            "question" : "Le cryptage transparent des données (TDE) crypte",
+            "proposition" : {
+                "1" : "une colonne pour protéger les données au repos et en transit.",
+                "2" : "requêtes et leurs résultats afin de protéger les données en transit.",
+                "3" : "la base de données pour protéger les données au repos.",
+                "4" : "le serveur pour protéger les données au repos."
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous devez vous assurer que les utilisateurs utilisent l'authentification multifacteur (MFA) lors de la connexion à une base de données Azure SQL.\n\nQuel type d'authentification devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "authentification du principal du service",
+                "2" : "Authentification Azure Active Directory (Azure AD)",
+                "3" : "Authentification SQL",
+                "4" : "authentification par certificat"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Quel est l'avantage d'héberger une base de données sur une instance gérée Azure SQL par rapport à une base de données Azure SQL ?",
+            "proposition" : {
+                "1" : "haute disponibilité intégrée",
+                "2" : "prise en charge native des requêtes et des transactions entre bases de données",
+                "3" : "sauvegardes automatiques lancées par le système",
+                "4" : "prise en charge du chiffrement au repos"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Par défaut, chaque base de données Azure SQL est protégée par",
+            "proposition" : {
+                "1" : "un groupe de sécurité réseau (NSG).",
+                "2" : "un pare-feu au niveau du serveur.",
+                "3" : "Pare-feu Azure.",
+                "4" : "Porte d'entrée d'azur."
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous devez concevoir et modéliser une base de données à l'aide d'un outil graphique prenant en charge le développement de base de données hors ligne orienté projet. \n Que devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Outils de données Microsoft SQL Server (SSDT)",
+                "2" : "Microsoft SQL Server Management Studio (SSMS)",
+                "3" : "Azure Databrick",
+                "4" : "Studio de données Azure"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous disposez d'une application transactionnelle qui stocke des données dans une instance managée Azure SQL. Quand devez-vous implémenter une réplique de base de données en lecture seule ?",
+            "proposition" : {
+                "1" : "Vous devez générer des rapports sans affecter la charge de travail transactionnelle.",
+                "2" : "Vous devez auditer l'application transactionnelle.",
+                "3" : "Vous devez mettre en œuvre la haute disponibilité en cas de panne régionale.",
+                "4" : "Vous devez améliorer l'objectif de point de récupération (RPO)."
+
+            },
+            "reponse" : "J"
+        },
+        {
+            "type" :3,
+            "question" : "À quels niveaux pouvez-vous définir le débit d'un compte Azure Cosmos DB ? Chaque bonne réponse présente une solution complète. ",
+            "proposition" : {
+                "1" : "base de données ",
+                "2" : "élément",
+                "3" : "récipient",
+                "4" : "cloison"
+
+            },
+            "reponse" : "CA"
+        },
+        {
+            "type ": 1,
+            "question" : "Le stockage Table Azure prend en charge plusieurs réplicas en lecture.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Le stockage Azure Table prend en charge plusieurs régions d'écriture.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "L'API Azure Cosmos DB Table prend en charge plusieurs réplicas en lecture.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "L'API Azure Cosmos DB Table prend en charge plusieurs régions d'écriture.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 3,
+            "question" : "ous avez un compte Azure Cosmos DB qui utilise l'API Core (SQL).\n\n\nQuels paramètres pouvez-vous configurer au niveau du conteneur ? Chaque bonne réponse présente une solution complète. ",
+            "proposition" : {
+                "1" : "le débit",
+                "2" : "la région de lecture",
+                "3" : "la clé de partition",
+                "4" : "l'API"
+
+            },
+            "reponse" : "CA"
+        },
+        {
+            "type ": 2,
+            "question" : "Quelle solution de stockage prend en charge le contrôle d'accès basé sur les rôles (RBAC) au niveau des fichiers et des dossiers ?",
+            "proposition" : {
+                "1" : "Stockage sur disque Azure",
+                "2" : "Stockage de lac de données Azure",
+                "3" : "Stockage Azure Blob",
+                "4" : "Stockage de la file d'attente Azure"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous devez stocker des données dans Azure Blob Storage pendant sept ans pour répondre aux exigences de conformité de votre entreprise. Le temps de récupération des données est sans importance. La solution doit minimiser les coûts de stockage. Quel niveau de stockage devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Archiver",
+                "2" : "Chaud",
+                "3" : "Frais"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Quel type de magasin de données non relationnel prend en charge un schéma flexible, stocke les données sous forme de fichiers JSON et stocke toutes les données d'une entité dans le même document ?",
+            "proposition" : {
+                "1" : "document",
+                "2" : "de colonne",
+                "3" : "graphique",
+                "4" : "des séries chronologiques"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Pour configurer un compte de stockage Azure pour prendre en charge à la fois la sécurité au niveau du dossier et la sécurité atomique manipulation de répertoire",
+            "proposition" : {
+                "1" : "activer l'espace de noms hiérarchique. ",
+                "2" : "définissez Type de compte sur BlobStorage.",
+                "3" : "réglez Performances sur Premium.",
+                "4" : "définissez Réplication sur Stockage géoredondant avec accès en lecture (RA-GRS)."
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous devez déplacer le dossier partagé vers Azure Storage. Quel type de stockage Azure devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "file d'attente",
+                "2" : "goutte",
+                "3" : "fichier",
+                "4" : "table"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Votre entreprise est en train de concevoir une base de données qui contiendra les données de session d'un site Web. Les données incluront les notifications, les attributs de personnalisation et les produits ajoutés à un panier. Quel type de magasin de données fournira la latence la plus faible pour récupérer les données ?",
+            "proposition" : {
+                "1" : "valeur clé",
+                "2" : "graphique",
+                "3" : "de colonne",
+                "4" : "document"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 1,
+            "question" : "Lors de l'ingestion de données d'Azure Data Lake Storage sur\nRégions Azure, vous encourrez des coûts pour la bande passante.",
+            "proposition" : {
+
+            },
+            "reponse" : ""
+        },
+        {
+            "type ": 1,
+            "question" : "Vous pouvez utiliser le stockage d'objets blob, de tables et de fichiers dans le même Azure\nCompte de stockage.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Vous implémentez Azure Data Lake Storage en créant un\nCompte de stockage Azure.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous pouvez utiliser le stockage d'objets blob, de tables et de fichiers dans le même Azure\nCompte de stockage.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 2,
+            "question" : " Quel scénario est un exemple de charge de travail en continu ?",
+            "proposition" : {
+                "1" : "envoi de transactions datant de plus d'un mois vers une archive",
+                "2" : "envoi quotidien de transactions à partir d'appareils de point de vente (POS)",
+                "3" : "envoi de données de télémétrie à partir d'appareils périphériques",
+                "4" : "envoi de métadonnées d'infrastructure cloud toutes les 30 minutes"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "Back workloads is ",
+            "proposition" : {
+                "1" : "traiter les données en mémoire, ligne par ligne.",
+                "2" : "collecter et traiter des données au maximum une fois par jour.",
+                "3" : "traiter les données au fur et à mesure que de nouvelles données sont reçues en temps quasi réel.",
+                "4" : "collecter des données, puis traiter les données lorsqu'une condition est remplie."
+
+            },
+            "reponse" : "D"
+        },
+        {
+            "type ": 1,
+            "question" : "Le traitement des paiements de salaire une fois par mois est un exemple de\ncharge de travail par lots.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Une éolienne qui envoie 50 lectures de capteur par seconde est\nun exemple de charge de travail en continu.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Un compteur d'électricité domestique qui envoie des relevés une fois par jour à\nun fournisseur d'énergie est un exemple de charge de travail en continu.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 2,
+            "question" : " Vous avez besoin de collecter des données de télémétrie en temps réel à partir d'une application mobile.\n\n\nQuel type de charge de travail décrit ce scénario ?",
+            "proposition" : {
+                "1" : "Traitement des transactions en ligne (OLTP)",
+                "2" : "grouper",
+                "3" : "traitement massivement parallèle (MPP)",
+                "4" : "diffusion"
+
+            },
+            "reponse" : "D"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous avez un pool SQL dans Azure Synapse Analytics qui n'est utilisé activement que toutes les nuits pendant huit heures.\n\n\nVous devez minimiser le coût du pool SQL pendant les périodes d'inactivité. La solution doit garantir que les données restent intactes. Que faire sur le pool SQL ?",
+            "proposition" : {
+                "1" : "Réduisez les unités d'entrepôt de données (DWU).",
+                "2" : "Mettez la piscine en pause.",
+                "3" : "Créez un point de restauration défini par l'utilisateur.",
+                "4" : "Supprimer le pool"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Quel composant Azure Data Factory lance l'exécution d'un pipeline ?\n",
+            "proposition" : {
+                "1" : "un flux de contrôle",
+                "2" : "un déclencheur",
+                "3" : "un paramètre",
+                "4" : "une activité"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 2,
+            "question" : "Votre entreprise dispose d'une solution de reporting qui propose des rapports paginés. Les rapports interrogent un modèle dimensionnel dans un entrepôt de données.",
+            "proposition" : {
+                "1" : "traitement de flux",
+                "2" : "le traitement par lots",
+                "3" : "Traitement analytique en ligne (OLAP)",
+                "4" : "Traitement des transactions en ligne (OLTP)"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "Quelles sont les trois caractéristiques d'une charge de travail de traitement des transactions en ligne (OLTP) ? Chaque bonne réponse présente une solution complète.",
+            "proposition" : {
+                "1" : "données dénormalisées",
+                "2" : "écritures lourdes et lectures modérées",
+                "3" : "écritures légères et lectures lourdes",
+                "4" : "schéma à l'écriture",
+                "5" : "schéma sur readF. données normalisées"
+
+
+            },
+            "reponse" : "BDE"
+        },
+        {
+            "type ": 3,
+            "question" : "Quelles sont les deux activités qui peuvent être entièrement réalisées à l'aide du service Microsoft Power BI ? Chaque bonne réponse présente une solution complète.",
+            "proposition" : {
+                "1" : "création de rapport et tableau de bord",
+                "2" : "partage et distribution de rapports",
+                "3" : "la modélisation des données",
+                "4" : "acquisition et préparation des données"
+
+            },
+            "reponse" : "AD"
+        },
+        {
+            "type ": 2,
+            "question" : "Dans Azure Data Factory, vous pouvez utiliser _____ orchestrer le pipeline\n",
+            "proposition" : {
+                "1" : "un flux de contrôle",
+                "2" : "un jeu de données",
+                "3" : "un service lié",
+                "4" : "un environnement d'exécution d'intégration"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : " Vous avez besoin de développer une solution pour fournir des données aux cadres. La solution doit fournir une interface graphique interactive, décrire divers indicateurs de performance clés et prendre en charge l'exploration des données à l'aide d'une exploration vers le bas.\n\n\nQue devez-vous utiliser dans Microsoft Power BI ?\n\n",
+            "proposition" : {
+                "1" : "un tableau de bord",
+                "2" : "un rapport",
+                "3" : "un flux de données",
+                "4" : "Applications Microsoft Power"
+
+            },
+            "reponse" : "B"
+        },
+        {
+            "type ": 3,
+            "question" : " Quels sont les deux services Azure qui peuvent être utilisés pour provisionner les clusters Apache Spark ? Chaque bonne réponse présente une solution complète",
+            "proposition" : {
+                "1" : "Azure Time Series Insights",
+                "2" : "Azure HDInsight",
+                "3" : "Azure Databrick",
+                "4" : "Azure Log Analytics"
+
+            },
+            "reponse" : "CB"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous disposez d'une application d'assurance qualité qui lit les données d'un entrepôt de données.\n\n\nQuel type de traitement l'application utilise-t-elle ?\n\n",
+            "proposition" : {
+                "1" : "raitement des transactions en ligne (OLTP)",
+                "2" : "le traitement par lots",
+                "3" : "Traitement analytique en ligne (OLAP)",
+                "4" : "traitement de flux"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 3,
+            "question" : " Quels sont les trois objets qui peuvent être ajoutés à un tableau de bord Microsoft Power BI ? Chaque bonne réponse présente une solution complète.",
+            "proposition" : {
+                "1" : "une page de rapport",
+                "2" : "une diapositive Microsoft PowerPoint",
+                "3" : "une visualisation à partir d'un rapport",
+                "4" : "un flux de données",
+                "5" : "une zone de texte"
+
+            },
+            "reponse" : "ACE"
+        },
+        {
+            "type ": 2,
+            "question" : "Quel composant Azure Data Factory fournit l'environnement de calcul pour les activités ?",
+            "proposition" : {
+                "1" : "un service lié",
+                "2" : "un environnement d'exécution d'intégration",
+                "3" : "un flux de contrôle",
+                "4" : "un pipeline"
+
+            },
+            "reponse" : "A"
+        },
+        {
+            "type ": 2,
+            "question" : "Vous devez utiliser Transact-SQL pour interroger des fichiers dans Azure Data Lake Storage à partir d'un entrepôt de données Azure Synapse Analytics.\nQue devez-vous utiliser pour interroger les fichiers ?",
+            "proposition" : {
+                "1" : "Fonctions Azure",
+                "2" : "Services d'intégration Microsoft SQL Server (SSIS)",
+                "3" : "PolyBase",
+                "4" : "Usine de données Azure"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure Databricks est une collaboration basée sur Apache Spark plate-forme d'analyse.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure Analysis Services est utilisé pour les charges de travail transactionnelles.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "Azure Data Factory orchestre les workflows d'intégration de données.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 1,
+            "question" : "Un tableau de bord Microsoft Power BI est associé avec un seul espace de travail.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "Un tableau de bord Microsoft Power BI ne peut afficher que\nvisualisations à partir d'un seul ensemble de données.",
+            "proposition" : {
+
+            },
+            "reponse" : "F"
+        },
+        {
+            "type ": 1,
+            "question" : "Un tableau de bord Microsoft Power BI peut afficher\nvisualisations à partir d'un classeur Microsoft Excel.",
+            "proposition" : {
+
+            },
+            "reponse" : "T"
+        },
+        {
+            "type ": 2,
+            "question" : "Quelle solution de stockage Azure fournit une prise en charge native des listes de contrôle d'accès (ACL) compatibles POSIX ?",
+            "proposition" : {
+                "1" : "Azure Queue storage",
+                "2" : "Azure Data Lake Storage ",
+                "3" : "Azure table storage",
+                "4" : "Azure Files"
+
+            },
+            "reponse" : "C"
+        },
+        {
+            "type ": 2,
+            "question" : "You manage an application that stores data in a shared folder on a Windows server.\n\nYou need to move the shared folder to Azure Storage.\n\nWhich type of Azure Storage should you use",
+            "proposition" : {
+                "1" : "queue",
+                "2" : "blob",
+                "3" : "file ",
+                "4" : "table"
+
+            },
+            "reponse" : "C"
+        },{
+            "type ": 2,
+            "question" : "Quel paramètre ne peut être configuré que lors de la création d'un compte Azure Cosmos DB ?",
+            "proposition" : {
+                "1" : "geo-redundancy",
+                "2" : "multi-region writes",
+                "3" : "production or non-reduction account type",
+                "4" : "API"
+
+            },
+            "reponse" : "D"
+        },{
+            "type ": 2,
+            "question" : "À quel niveau d'Azure Cosmos DB pouvez-vous configurer plusieurs régions d'écriture et régions de lecture ",
+            "proposition" : {
+                "1" : "base de données",
+                "2" : "cloison",
+                "3" : "collectioncorrect",
+                "4" : "Compte"
+
+            },
+            "reponse" : "C"
+        },{
+            "type ": 2,
+            "question" : "Quelle solution de stockage prend en charge le contrôle d'accès basé sur les rôles (RBAC) au niveau des fichiers et des dossiers ?",
+            "proposition" : {
+                "1" : "Stockage sur disque Azure",
+                "2" : "Stockage de lac de données Azure",
+                "3" : "Stockage Azure Blob",
+                "4" : "Stockage de la file d'attente Azure"
+
+            },
+            "reponse" : "B"
+        },{
+            "type ": 2,
+            "question" : "Quelle solution de stockage prend en charge les listes de contrôle d'accès (ACL) au niveau des fichiers et des dossiers ?",
+            "proposition" : {
+                "1" : "Stockage de lac de données Azurecorrect",
+                "2" : "Azure Cosmos DB",
+                "3" : "Stockage de la file d'attente Azure",
+                "4" : "Stockage Azure Blob"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : "Votre entreprise doit concevoir une base de données qui illustre les relations entre les niveaux d'utilisation des périphériques réseau individuels sur un réseau local. \n Quel type de magasin de données devriez-vous utiliser ?",
+            "proposition" : {
+                "1" : "graphiquecorrect",
+                "2" : "valeur clé",
+                "3" : "document",
+                "4" : "de colonne"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : "ous disposez d'une application qui s'exécute sous Windows et nécessite un lecteur mappé.\n\nQuel service Azure devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Azure Cosmos DBcorrect",
+                "2" : "Stockage de table Azure",
+                "3" : "Fichiers Azure",
+                "4" : "Stockage Blob Azure"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : " Quel composant d'Azure Data Factory vous permet de définir une séquence d'activités y compris pour chaque itérateur ?",
+            "proposition" : {
+                "1" : "flux de contrôlecorrect",
+                "2" : "services liés",
+                "3" : "ensembles de données",
+                "4" : "le runtime d'intégration"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : " Votre entreprise doit concevoir une base de données qui montre comment les changements de trafic dans une zone d'un réseau affectent les autres composants du réseau.",
+            "proposition" : {
+                "1" : "Valeur clé",
+                "2" : "Graphiquecorrect",
+                "3" : "Document",
+                "4" : "de colonne"
+
+            },
+            "reponse" : "B"
+        },{
+            "type ": 2,
+            "question" : "",
+            "proposition" : {
+                "1" : "Studio de données Azurecorrect",
+                "2" : "sq1cmd",
+                "3" : "Microsoft SQL Server Management Studio (SSMS)",
+                "4" : "Explorateur de données Azure"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : "ne équipe de développeurs possède des ordinateurs thaïlandais exécutant Windows 10 et Ubuntu Desktop. Les développeurs doivent se connecter et interroger une base de données Azure SQL à partir des ordinateurs.\nLes développeurs ont besoin de fonctionnalités d'assistance au code telles qu'intellSense.\n",
+            "proposition" : {
+                "1" : "Studio de données Azurecorrect",
+                "2" : "sq1cmd",
+                "3" : "Microsoft SQL Server Management Studio (SSMS)",
+                "4" : "Explorateur de données Azure"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 3,
+            "question" : " Quels sont les deux services Azure qui peuvent être utilisés pour provisionner des clusters Spark ? Chaque bonne réponse présente une solution complète. REMARQUE : Chaque sélection correcte vaut un point.",
+            "proposition" : {
+                "1" : "Azure Databrickcorrect",
+                "2" : "Azure Log Analytics",
+                "3" : "Azure Time Series Insights",
+                "4" : "Azure HD Insight"
+
+            },
+            "reponse" : "AD"
+        },{
+            "type ": 2,
+            "question" : "Lors du provisionnement d'un compte Azure Cosmos DB, quelle fonctionnalité fournit la redondance au sein d'une région Azure ",
+            "proposition" : {
+                "1" : "réplication multimaître",
+                "2" : "Zones de disponibilitécorrect",
+                "3" : "basculement automatique",
+                "4" : "le niveau de cohérence forte"
+
+            },
+            "reponse" : "B"
+        },{
+            "type ": 3,
+            "question" : "Quelles sont les trois caractéristiques d'une charge de travail de traitement des transactions en ligne (OLTP) ? Chaque bonne réponse présente une solution complète. (Choisissez trois réponses.)",
+            "proposition" : {
+                "1" : " données dénormalisées",
+                "2" : " écritures intensives et lectures modérées",
+                "3" : " écritures légères et lectures intensives",
+                "4" : " schéma en écriture",
+                "5" : " schéma en lecture",
+                "6" : " données normalisées"
+
+            },
+            "reponse" : "BDF"
+        },{
+            "type ": 2,
+            "question" : "Votre entreprise est en train de concevoir une base de données qui contiendra les données de session d'un site Web. Les données incluront les notifications, les attributs de personnalisation et les produits ajoutés à un panier.",
+            "proposition" : {
+                "1" : "valeur clécorrect",
+                "2" : "graphique",
+                "3" : "de colonne",
+                "4" : "document"
+
+            },
+            "reponse" : "A"
+        },{
+            "type ": 2,
+            "question" : "Vous devez recommander un magasin de données non relationnel optimisé pour le stockage et la récupération de fichiers, de vidéos, de flux audio et d'images de disque virtuel. Le magasin de données doit stocker des données, certaines métadonnées et un ID unique pour chaque fichier.",
+            "proposition" : {
+                "1" : "document",
+                "2" : "valeur clé",
+                "3" : "objetcorrect",
+                "4" : "de colonne"
+
+            },
+            "reponse" : "C"
+        },{
+            "type ": 2,
+            "question" : " Quel est l'objectif principal d'un entrepôt de données ?\n",
+            "proposition" : {
+                "1" : "pour fournir des réponses à des requêtes complexes qui s'appuient sur des données provenant de plusieurs sources",
+                "2" : "pour fournir des services de transformation entre les magasins de données source et cible",
+                "3" : "pour fournir un stockage en lecture seule des données historiques relationnelles et non relationnelles",
+                "4" : "pour fournir un espace de stockage pour les applications métier transactionnelles (LOB)"
+            },
+            "reponse" : "C"
+        },{
+            "type ": 2,
+            "question" : "Quel composant Azure Data Factory fournit l'environnement de calcul pour les activités ?",
+            "proposition" : {
+                "1" : "un service lié",
+                "2" : "un environnement d'exécution d'intégrationcorrect",
+                "3" : "un flux de contrôle",
+                "4" : "un pipeline"
+
+            },
+            "reponse" : "B"
+        },{
+            "type ": 2,
+            "question" : " Vous disposez d'une application d'assurance qualité qui lit les données d'un entrepôt de données.",
+            "proposition" : {
+                "1" : "Traitement des transactions en ligne (OLTP)",
+                "2" : "le traitement par lots",
+                "3" : "Traitement analytique en ligne (OLAP)correct",
+                "4" : "traitement de flux"
+
+            },
+            "reponse" : "C"
+        }
+    ]
+
+}

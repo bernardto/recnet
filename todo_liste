@@ -1,0 +1,34 @@
+Bonsoir Monsieur j’ai recenser les fonctionnalités qui doivent être implémenté :
+*Fonctionnalités*
+•	Gestion des contribuables coté serveur
+-	Ajout d’un contribuable
+-	Modification d’un contribuable
+•	Comptabilisé la recette du collecteur
+-	Historique
+-	Voir le montant collecté entre deux dates
+•	Authentification sur le serveur
+
+
+
+•	Détails du Recouvrement
+-	Qui à payer : Quoi Où et Quand
+    Authentification sur l'application après une modification
+•	Gestion des taxe (Amélioration)
+-	Courbe
+•	Gestion des erreurs
+•	Volet sécurité : Crypté l’échange des données entre serveur et application
+•	Le Manuel d’utilisation
+•	Processus d’installation du logiciel
+*États*
+•	Liste des collecteurs, Contribuables, Superviseurs, Quartiers, Zones
+•	Montant versé
+•	Recouvrement (Qui a payé Quoi Où et Quand)
+•	Recouvrement d’un collecteur
+•	Détail du recouvrement par zone, par quartier.
+*Date livraison du projet Final :  le dimanche 2 décembre à 10H.*
+////////////////////////////////////////////////////////////////////////////////
+-corriger les erreurs sex API
+-Créer un administrateur et c'est lui qui le responsable des paiements.
+-Timer pour vérifier que le token n'est plus valide
+-Rechercher un utilisateur
+-Racoucirs quartier zone

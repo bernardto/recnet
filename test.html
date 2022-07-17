@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+
+<label for="w3review"></label><textarea id="w3review" name="w3review" rows="4" cols="50">
+
+
+</textarea>
+<button onclick="toQuiz()" type="button">Click Me!</button>
+
+<script type="text/javascript">
+
+    const wage = document.getElementById('w3review');
+    wage.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          toQuiz();
+        }
+    });
+
+
+    String.prototype.replaceAll = function(search, replacement) {
+        var target = this;
+        return target.replace(new RegExp(search, 'g'), replacement);
+    };
+
+    function replaceAll(str, map){
+        for(key in map){
+            str = str.replaceAll(key, map[key]);
+        }
+        return str;
+    }
+
+    function  toClipBord(text){
+        navigator.clipboard.writeText(text).then(function() {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+    }
+
+    function toQuiz(){
+      let  text = document.getElementById("w3review").value;
+
+
+      let sd = text.split("\n");
+
+      console.log(sd);
+        let i = 0;
+        var map = {
+            'A.' : '',
+            'B.' : '',
+            'C.' : '',
+            'D.' : '',
+            'E.' : ''
+        };
+        for(i = 0; i < sd.length; i++){
+
+          //  console.log(sd[i].length);
+            if(sd[i].length <3 ){
+                sd.splice(i,1);
+            }else{
+                sd[i]  = sd[i].replace("A.", "");
+                sd[i]  = sd[i].replace("B.", "");
+                sd[i]  = sd[i].replace("C.", "");
+                sd[i]  = sd[i].replace("D.", "");
+                sd[i]  = sd[i].replace("E.", "");
+
+            }
+
+
+        }
+
+
+        let json ="";
+        let k = 0;
+        for( i = 0; i < sd.length; i++){
+            k = i + 1;
+            if( k  !== sd.length)
+                json = json + '"'+k +'" : ' + '"'+sd[i] +'",\n';
+            else
+                json = json + '"'+k +'" : ' + '"'+sd[i] +'"\n';
+
+        }
+
+        json  = json.replace("A.", "");
+        json  = json.replace("B.", "");
+        json  = json.replace("C.", "");
+        json  = json.replace("D.", "");
+        json  = json.replace("E.", "");
+
+        toClipBord(json);
+        document.getElementById("w3review").value  = "";
+
+
+    }
+
+
+/*
+
+        var taxe = {
+
+                "id_pay": 14,
+                "date": "VENTE DE JOURNEAUX",
+                "id_ct": 0,
+                "montant": "",
+                "id_activite": 0
+        }
+
+
+        let s = "String.format(\"INSERT INTO zone (";
+
+        let nom = [];
+        let val = [];
+
+        Object.keys(taxe).forEach( (xf) => {
+              nom.push(xf);
+              val.push(taxe[xf]);
+
+
+
+        });
+
+      /!*  let sql = "DB::table('contribuable')->insertGetId([ ";
+
+        for( i = 0; i < val.length; i++){
+
+                sql = sql+  "\""+ nom[i]+"\" => $data->contribuable->"+nom[i]+", \n";
+
+
+        }
+        sql = sql + "]);";
+
+        navigator.clipboard.writeText(sql).then(function() {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+
+
+      let sql = "new  Taxe ( ";
+        for( i = 0; i < val.length; i++){
+            if(typeof val[i] == "string")
+                sql = sql+  "c.getString(c.getColumnIndex(\""+ nom[i]+"\")), \n";
+            else
+                sql = sql+  "c.getInt(c.getColumnIndex(\""+nom[i]+"\")), \n"
+
+        }
+        sql = sql + "))";
+
+        navigator.clipboard.writeText(sql).then(function() {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+
+*!/
+
+        for(var i = 0; i < nom.length; i++){
+           if(i === nom.length - 1)
+               s = s+ nom[i];
+           else
+               s = s+ nom[i] + ",";
+        }
+        s  = s + ") values ( ";
+
+        i = 0;
+        for( i = 0; i < val.length; i++){
+            if(typeof val[i] == "string")
+                s = s+ "\\\"%s\\\",";
+            else
+                s = s + "%d,";
+
+        }
+
+        s = s + ")\", )"
+        navigator.clipboard.writeText(s).then(function() {
+            console.log('Async: Copying to clipboard was successful!');
+        }, function(err) {
+            console.error('Async: Could not copy text: ', err);
+        });
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+</script>
+<!--<div style="height: 1000px; width: 2000px; margin-left: 40%; margin-top: 5%; background-color: blue; font-size: 18px;">-->
+
+<!--&lt;!&ndash;    <textarea id="text" style="width: 1800px; height: 1000px;" ></textarea>&ndash;&gt;-->
+<!--
+LOG_CHANNEL=stack
+DB_CONNECTION=mysql
+DB_HOST=185.224.138.91
+DB_PORT=3306
+DB_DATABASE=u250336230_reccnet
+DB_USERNAME=u250336230_recnet
+DB_PASSWORD=/*-@Riga1234
+
+
+
+DB_HOST=85.10.205.173
+DB_PORT=3306
+DB_DATABASE=recnet
+DB_USERNAME=recnet
+DB_PASSWORD=/*-@Riga1234
+
+LOG_CHANNEL=stack
+DB_CONNECTION=mysql
+DB_HOST=85.10.205.173
+DB_PORT=3306
+DB_DATABASE=recnet
+DB_USERNAME=recnet
+DB_PASSWORD=/*-@Riga1234
+
+  -->
+
+<!--</div>-->
+
+
+</body>
+</html>

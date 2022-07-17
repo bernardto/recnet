@@ -1,0 +1,3113 @@
+{
+
+    "data" : [
+        {
+            "type": 3,
+            "question" : "Votre entreprise a l'intention de souscrire à un plan de support Azure.\n\nLe plan de support doit permettre l'ouverture de nouvelles demandes de support.\n\nParmi les plans d'assistance suivants, lesquels le permettent ? Répondez en faisant glisser l'option correcte de la liste vers la zone de réponse.",
+            "proposition" : {
+                "1" : "Basic",
+                "2" : "Developer",
+                "3" : "Standard",
+                "4" : "Professional Direct ",
+                "5" : "Premier"
+
+
+            },
+            "reponse" : "BDCE"
+
+
+        },
+
+        {
+            "type": 2,
+            "question" : "Votre entreprise possède des centres de données à Los Angeles et à New York. La société a un abonnement Microsoft Azure. Vous configurez les deux centres de données en tant que sites géo-cluster pour la résilience du site.\n\nVous devez recommander une option de redondance de stockage Azure. Vous avez les exigences de stockage de données suivantes :\n\n Les données doivent être stockées sur plusieurs nœuds.\n\nLes données doivent être stockées sur des nœuds dans des emplacements géographiques distincts.\n\n Les données peuvent être lues à partir de l'emplacement secondaire ainsi que de l'emplacement principal Laquelle des options de redondance stockée Azure suivantes devriez-vous recommander ?",
+            "proposition" : {
+                "1" : "Stockage géo-redondant",
+                "2" : "Stockage géo-redondant en lecture seule",
+                "3" : "Stockage redondant de zone",
+                "4" : "Stockage localement redondant"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+
+        {
+            "type": 1,
+            "question" : "L'abonnement Azure de votre entreprise comprend un plan de support de base.\n\nIls souhaitent demander à Microsoft une évaluation de la conception d'un environnement Azure. Ceci n'est cependant pas pris en charge par le plan existant. Vous voulez vous assurer que l'entreprise souscrit à un plan de support qui permet cette fonctionnalité, tout en minimisant les dépenses.\n\nSolution : Vous recommandez à l'entreprise de souscrire au plan d'assistance Professional Direct. La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer des machines virtuelles Azure pour votre entreprise. Vous devez utiliser la solution de déploiement cloud appropriée.\n\nSolution : vous devez utiliser un logiciel en tant que service (SaaS). La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer des machines virtuelles Azure pour votre entreprise. Vous devez utiliser la solution de déploiement cloud appropriée.\n\nSolution : vous devez utiliser la plate-forme en tant que service (PaaS). La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer des machines virtuelles Azure pour votre entreprise. Vous devez utiliser la solution de déploiement cloud appropriée.\n\nSolution : vous devez utiliser l'infrastructure en tant que service (IaaS). La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vos développeurs ont créé 10 applications web qui doivent être hébergées sur Azure.\n\nVous devez déterminer le plan de niveau Web Azure pour héberger les applications Web. Le plan de niveau Web doit répondre aux exigences suivantes :\n\n Les applications Web utiliseront des domaines personnalisés.\n\n Le web applications nécessitent chacun 10 Go de stockage.\n\n Les applications Web doivent chaque exécution dans les instances de calcul dédiées.\n\n L'équilibrage de charge entre les instances doit être inclus.\n\n Les coûts doivent être minimisés.\n\nQuel plan de niveau Web devriez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Standard",
+                "2" : "De base",
+                "3" : "Libérer",
+                "4" : "partagé"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous envisagez de migrer une entreprise vers Azure. Chacune des nombreuses divisions de l'entreprise aura un administrateur en place pour gérer les ressources Azure utilisées par leur division respective.\n\nVous voulez vous assurer que le déploiement Azure que vous utilisez permet de segmenter Azure pour les divisions, tout en minimisant les efforts administratifs.\n\nSolution : vous prévoyez d'utiliser plusieurs annuaires Azure Active Directory (Azure AD). La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vos développeurs ont créé une application Web de portail pour les utilisateurs de la succursale de Miami. L'application Web sera accessible au public et utilisée par les utilisateurs de Miami pour récupérer des informations sur les clients et les produits. L'application Web s'exécute actuellement dans un environnement de test sur site.\n\nVous prévoyez d'héberger l'application web sur Azure.\n\nVous devez déterminer le plan de niveau Web Azure pour héberger l'application Web. Le plan de niveau Web doit répondre aux exigences suivantes :\n\n Le site utilisera l'URL miami.weyland.com.\n\n Le site Web sera déployé sur deux instances.\n\n La prise en charge SSL doit être incluse.\n\n Le site nécessite 12 Go de stockage.\n\n Les coûts doivent être minimisés.\n\nQuel plan de niveau Web devriez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Standard",
+                "2" : "De base",
+                "3" : "Libérer",
+                "4" : "partagé"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise envisage de migrer toutes ses machines virtuelles vers un abonnement Azure pay-as-you-go. Les machines virtuelles sont actuellement hébergées sur les hôtes Hyper-V dans un centre de données.\n\nVous devez vous assurer que la solution Azure prévue utilise le bon modèle de dépenses. Solution : vous devriez recommander l'utilisation du modèle de dépenses élastique.\n\nLa solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise envisage de migrer toutes ses machines virtuelles vers un abonnement Azure pay-as-you-go. Les machines virtuelles sont actuellement hébergées sur les hôtes Hyper-V dans un centre de données.\n\nVous devez vous assurer que la solution Azure prévue utilise le bon modèle de dépenses. Solution : vous devez recommander l'utilisation du modèle de dépenses évolutif.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous devez déployer une solution d'intelligence artificielle (IA) dans Azure.\n\nVous voulez vous assurer que vous êtes capable de créer, tester et déployer des analyses prédictives pour la solution. Solution : vous devez utiliser Azure Cosmos DB.\n\nLa solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "La forêt Active Directory de votre entreprise comprend des milliers de comptes d'utilisateurs.\n\nVous avez été informé que toutes les ressources réseau seront migrées vers Azure. Par la suite, le centre de données sur site sera retiré. Vous êtes tenu d'employer une stratégie qui réduit l'effet sur les utilisateurs, une fois la migration planifiée terminée.\n\nSolution : vous prévoyez de synchroniser tous les comptes d'utilisateurs Active Directory avec Azure Active Directory (Azure AD). La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous devez déployer une solution d'intelligence artificielle (IA) dans Azure.\n\nVous voulez vous assurer que vous êtes capable de créer, tester et déployer des analyses prédictives pour la solution. Solution : vous devez utiliser Azure Machine Learning Studio.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "L'infrastructure de votre entreprise comprend un certain nombre d'unités commerciales qui ont chacune besoin d'un grand nombre de diverses ressources Azure pour leur fonctionnement quotidien.\n\nLes ressources nécessaires à chaque business unit sont identiques.\n\nVous devez approuver une stratégie pour créer automatiquement des ressources Azure.\n\nSolution : vous recommandez d'inclure le service Azure API Management dans la stratégie. La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "L'infrastructure de votre entreprise comprend un certain nombre d'unités commerciales qui ont chacune besoin d'un grand nombre de diverses ressources Azure pour leur fonctionnement quotidien.\n\nLes ressources nécessaires à chaque business unit sont identiques.\n\nVous devez approuver une stratégie pour créer automatiquement des ressources Azure. Solution : vous recommandez d'inclure des groupes de gestion dans la stratégie. La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "L'infrastructure de votre entreprise comprend un certain nombre d'unités commerciales qui ont chacune besoin d'un grand nombre de diverses ressources Azure pour leur fonctionnement quotidien.\n\nLes ressources nécessaires à chaque business unit sont identiques.\n\nVous devez approuver une stratégie pour créer automatiquement des ressources Azure.\n\nSolution : vous recommandez d'inclure les modèles Azure Resource Manager dans la stratégie. La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer une application LOB critique, qui sera installée sur une machine virtuelle, sur Azure.\n\nVous êtes informé que la stratégie de déploiement des applications doit permettre une disponibilité garantie de 99,99 %. Vous devez vous assurer que la stratégie nécessite le moins possible de machines virtuelles et de zones de disponibilité.\n\nSolution : vous incluez deux machines virtuelles et une zone de disponibilité dans votre stratégie. La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer une application LOB critique, qui sera installée sur une machine virtuelle, sur Azure.\n\nVous êtes informé que la stratégie de déploiement des applications doit permettre une disponibilité garantie de 99,99 %. Vous devez vous assurer que la stratégie nécessite le moins possible de machines virtuelles et de zones de disponibilité.\n\nSolution : vous incluez une machine virtuelle et deux zones de disponibilité dans votre stratégie. La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous êtes chargé de déployer une application LOB critique, qui sera installée sur une machine virtuelle, sur Azure.\n\nVous êtes informé que la stratégie de déploiement des applications doit permettre une disponibilité garantie de 99,99 %. Vous devez vous assurer que la stratégie nécessite le moins possible de machines virtuelles et de zones de disponibilité.\n\nSolution : vous incluez deux machines virtuelles et deux zones de disponibilité dans votre stratégie. La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les développeurs de votre entreprise ont l'intention de déployer un grand nombre de machines virtuelles personnalisées chaque semaine. Ils supprimeront également ces machines virtuelles au cours de la même semaine de déploiement. Windows Server 2016 est installé sur 60 % des machines virtuelles, tandis que les 40 % restants ont Ubuntu Linux installé.\n\nVous devez vous assurer que l'effort administratif nécessaire à ce processus est réduit en utilisant un service Azure approprié. Solution : vous recommandez l'utilisation de Microsoft Managed Desktop.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les développeurs de votre entreprise ont l'intention de déployer un grand nombre de machines virtuelles personnalisées chaque semaine. Ils supprimeront également ces machines virtuelles au cours de la même semaine de déploiement. Windows Server 2016 est installé sur 60 % des machines virtuelles, tandis que les 40 % restants ont Ubuntu Linux installé.\n\nVous devez vous assurer que l'effort administratif nécessaire à ce processus est réduit en utilisant un service Azure approprié. Solution : vous recommandez l'utilisation d'instances de machines virtuelles (VM) réservées Azure.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les développeurs de votre entreprise ont l'intention de déployer un grand nombre de machines virtuelles personnalisées chaque semaine. Ils supprimeront également ces machines virtuelles au cours de la même semaine de déploiement. Windows Server 2016 est installé sur 60 % des machines virtuelles, tandis que les 40 % restants ont Ubuntu Linux installé.\n\nVous devez vous assurer que l'effort administratif nécessaire à ce processus est réduit en utilisant un service Azure approprié. Solution : vous recommandez l'utilisation d'Azure DevTest Labs.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise possède des machines virtuelles (VM) hébergées dans Microsoft Azure. Les machines virtuelles sont situées dans un seul réseau virtuel Azure nommé VNet1. L'entreprise a des utilisateurs qui travaillent à distance. Les travailleurs distants ont besoin d'accéder aux machines virtuelles sur VNet1.\n\nVous devez fournir un accès aux travailleurs distants. Que devrais tu faire?",
+            "proposition" : {
+                "1" : "Configurez un VPN de site à site (S2S).",
+                "2" : "Configurez un VPN de réseau virtuel à réseau virtuel.",
+                "3" : "Configurez un VPN point à site (P2S).",
+                "4" : "Configurez DirectAccess sur une machine virtuelle de serveur Windows Server 2012.",
+                "5" : "Configurer un VPN multi-sites"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez été informé par vos supérieurs des intentions de l'entreprise d'automatiser le déploiement du serveur vers Azure. Cependant, certains craignent que les informations d'identification administratives ne soient découvertes au cours de ce processus.\n\nVous devez vous assurer que pendant le déploiement, les informations d'identification administratives sont chiffrées à l'aide d'une solution Azure appropriée. Solution : vous recommandez l'utilisation d'Azure Information Protection.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez été informé par vos supérieurs des intentions de l'entreprise d'automatiser le déploiement du serveur vers Azure. Cependant, certains craignent que les informations d'identification administratives ne soient découvertes au cours de ce processus.\n\nVous devez vous assurer que pendant le déploiement, les informations d'identification administratives sont chiffrées à l'aide d'une solution Azure appropriée. Solution : vous recommandez l'utilisation d'Azure Multi-Factor Authentication (MFA).\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "L'entreprise souhaite développer une solution cloud en utilisant Azure Government. Azure Government ne peut être utilisé que par certains types de clients pour développer des solutions cloud.\n\nParmi les types de clients suivants, lesquels peuvent utiliser Azure Government dans cette situation ? Répondez en faisant glisser l'option correcte de la liste vers la zone de réponse.\n\nSélectionnez et placez :\n\n",
+            "proposition" : {
+
+                "1" : "A government contractor from any country.",
+                "2" : "A government entity fromany counny.",
+                "3" : " A European governmentcontractor.",
+                "4" : "A European governmententity.",
+                "5" : "AUnited States government contractor.",
+                "6" : "A United States government entity."
+
+            },
+            "reponse" : "AF"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise dispose d'un environnement Azure Active Directory (Azure AD). Les utilisateurs se connectent occasionnellement à Azure AD via Internet.\n\nVous avez été chargé de vous assurer que les utilisateurs qui se connectent à Azure AD via Internet à partir d'une adresse IP non identifiée sont automatiquement encouragés à changer de mot de passe.\n\nSolution : vous configurez l'utilisation d'Azure AD Identity Protection. La solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise dispose d'un environnement Azure Active Directory (Azure AD). Les utilisateurs se connectent occasionnellement à Azure AD via Internet.\n\nVous avez été chargé de vous assurer que les utilisateurs qui se connectent à Azure AD via Internet à partir d'une adresse IP non identifiée sont automatiquement encouragés à changer de mot de passe.\n\nSolution : vous configurez l'utilisation d'Azure AD Privileged Identity Management. La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous envisagez une stratégie pour déployer de nombreux serveurs Web et serveurs de bases de données sur Azure.\n\nCette stratégie doit permettre de contrôler les types de connexion entre les serveurs Web et les serveurs de base de données. Solution : vous incluez des groupes de sécurité réseau (NSG) dans votre stratégie.\n\nLa solution atteint-elle l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous envisagez une stratégie pour déployer de nombreux serveurs Web et serveurs de bases de données sur Azure.\n\nCette stratégie doit permettre de contrôler les types de connexion entre les serveurs Web et les serveurs de base de données. Solution : vous incluez une passerelle de réseau local dans votre stratégie.\n\nLa solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "La forêt Active Directory de votre entreprise comprend des milliers de comptes d'utilisateurs.\n\nVous avez été informé que toutes les ressources réseau seront migrées vers Azure. Par la suite, le centre de données sur site sera retiré. Vous êtes tenu d'employer une stratégie qui réduit l'effet sur les utilisateurs, une fois la migration planifiée terminée.\n\nSolution : vous prévoyez d'exiger Azure Multi-Factor Authentication (MFA). La solution atteint-elle l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Une solution de plate-forme en tant que service (PaaS) qui héberge\nles applications Web dans Azure offrent un contrôle total sur\nsystèmes d'exploitation qui hébergent des applications.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Une solution de plate-forme en tant que service (PaaS) qui héberge\nles applications Web dans Azure offrent la possibilité de faire évoluer le\nplate-forme automatiquement.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Une solution de plate-forme en tant que service (PaaS) qui héberge\nles applications Web dans Azure fournissent des\nservices de développement pour ajouter en permanence des fonctionnalités\naux applications personnalisées.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure offre une flexibilité entre les capitaux\ndépenses (CapEx) et opérationnelles\nexponentielle (OpEx).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous créez deux machines virtuelles Azure qui\nutiliser la taille 823, chaque machine virtuelle\ngénèrent toujours les mêmes frais mensuels.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Lorsqu'une machine virtuelle Azure est arrêtée, vous\ncontinuer à payer les frais de stockage associés à la\nmachine virtuelle.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous disposez d'un réseau local qui contient plusieurs serveurs. Vous prévoyez de migrer tous les serveurs vers Azure.\n\nVous devez recommander une solution pour vous assurer que certains des serveurs sont disponibles si un seul centre de données Azure est hors ligne pendant une période prolongée.\n\nQue devez-vous inclure dans la recommandation ?",
+            "proposition" : {
+                "1" : "tolérance aux pannes",
+                "2" : "élasticité",
+                "3" : "évolutivité",
+                "4" : "faible latence"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Quelles sont les deux caractéristiques du cloud public ? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.\n\n",
+            "proposition" : {
+                "1" : "matériel dédié",
+                "2" : "connexions non sécurisées",
+                "3" : "stockage limité",
+                "4" : "tarification au compteur",
+                "5" : "gestion en libre-service"
+
+
+            },
+            "reponse" : "DE"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Après avoir répondu à une question dans cette section, vous ne pourrez PAS y revenir. Par conséquent, ces questions n'apparaîtront pas dans l'écran de révision. Votre entreprise prévoit de migrer toutes ses données et ressources vers Azure.\n\nLe plan de migration de l'entreprise indique que seules les solutions de plate-forme en tant que service (PaaS) doivent être utilisées dans Azure. Vous devez déployer un environnement Azure qui répond au plan de migration de l'entreprise.\n\nSolution : vous créez une base de données Azure App Service et Azure SQL. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Après avoir répondu à une question dans cette section, vous ne pourrez PAS y revenir. Par conséquent, ces questions n'apparaîtront pas dans l'écran de révision. Votre entreprise prévoit de migrer toutes ses données et ressources vers Azure.\n\nLe plan de migration de l'entreprise indique que seules les solutions de plate-forme en tant que service (PaaS) doivent être utilisées dans Azure. Vous devez déployer un environnement Azure qui répond au plan de migration de l'entreprise.\n\nSolution : vous créez un service d'application Azure et des machines virtuelles Azure sur lesquelles Microsoft SQL Server est installé. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Après avoir répondu à une question dans cette section, vous ne pourrez PAS y revenir. Par conséquent, ces questions n'apparaîtront pas dans l'écran de révision. Votre entreprise prévoit de migrer toutes ses données et ressources vers Azure.\n\nLe plan de migration de l'entreprise indique que seules les solutions de plate-forme en tant que service (PaaS) doivent être utilisées dans Azure. Vous devez déployer un environnement Azure qui répond au plan de migration de l'entreprise.\n\nSolution : vous créez un service d'application Azure et des comptes de stockage Azure. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise héberge une application comptable nommée App1 qui est utilisée par tous les clients de l'entreprise.\n\nApp1 a une faible utilisation au cours des trois premières semaines de chaque mois et une utilisation très élevée au cours de la dernière semaine de chaque mois. Quel avantage d'Azure Cloud Services prend en charge la gestion des coûts pour ce type de modèle d'utilisation ?",
+            "proposition" : {
+                "1" : "la haute disponibilité",
+                "2" : "latence élevée",
+                "3" : "élasticité",
+                "4" : "l'équilibrage de charge"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous envisagez de migrer une application web vers Azure. L'application Web est accessible par des utilisateurs externes.\n\nVous devez recommander une solution de déploiement cloud pour minimiser la quantité d'effort administratif utilisé pour gérer l'application Web. Que devez-vous inclure dans la recommandation ?",
+            "proposition" : {
+
+                "1" : "Logiciel en tant que service (SaaS)",
+                "2" : "Plateforme en tant que service (PaaS)",
+                "3" : "Infrastructure en tant que service (IaaS)",
+                "4" : "Base de données en tant que service (DaaS)"
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous disposez d'un réseau sur site qui contient 100 serveurs.\n\nVous devez recommander une solution qui fournit des ressources supplémentaires à vos utilisateurs. La solution doit minimiser les coûts d'investissement et d'exploitation.\n\nQue devez-vous inclure dans la recommandation ?",
+            "proposition" : {
+
+                "1" : "une migration complète vers le cloud public",
+                "2" : "un centre de données supplémentaire",
+                "3" : "un cloud privé",
+                "4" : "un cloud hybride"
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous prévoyez de migrer plusieurs serveurs d'un réseau local vers Azure.\n\nQuel est l'avantage d'utiliser un service de cloud public pour les serveurs sur un réseau sur site ?\n\n",
+            "proposition" : {
+
+                "1" : "Le cloud public appartient au public, PAS à une entreprise privée",
+                "2" : "Le cloud public est une solution de crowdsourcing qui offre aux entreprises la possibilité d'améliorer le cloud",
+                "3" : "Toutes les ressources du cloud public sont librement accessibles par chaque membre du public",
+                "4" : "Le cloud public est une entité partagée par laquelle plusieurs entreprises utilisent chacune une partie des ressources du cloud"
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Dans quel type de modèle cloud toutes les ressources matérielles appartiennent-elles à un tiers et sont-elles partagées entre plusieurs locataires ?",
+            "proposition" : {
+
+                "1" : "privé",
+                "2" : "hybride",
+                "3" : "Publique"
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez 1 000 machines virtuelles hébergées sur les hôtes Hyper-V dans un centre de données.\n\nVous prévoyez de migrer toutes les machines virtuelles vers un abonnement Azure pay-as-you-go. Vous devez identifier le modèle de dépenses à utiliser pour la solution Azure prévue. Quel modèle de dépenses devez-vous identifier ?\n\n",
+            "proposition" : {
+
+                "1" : "opérationnel",
+                "2" : "élastique",
+                "3" : "Capitale",
+                "4" : "évolutif"
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "La tarification Azure Pay-As-You-Go est un exemple de CapEx.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Payer l'électricité pour votre datacenter est un exemple d'OpEx.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Le déploiement de votre propre centre de données est un exemple de CapEx.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous prévoyez de provisionner des ressources Infrastructure en tant que service (IaaS) dans Azure. Quelle ressource est un exemple d'IaaS ?",
+            "proposition" : {
+
+                "1" : "une application web Azure",
+                "2" : "une machine virtuelle Azure",
+                "3" : "une application logique Azure",
+                "4" : "une base de données Azure SQL"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Sur quels modèles de cloud pouvez-vous déployer des serveurs physiques ?",
+            "proposition" : {
+
+                "1" : "cloud privé et cloud hybride uniquement",
+                "2" : "cloud privé uniquement",
+                "3" : "cloud privé, cloud hybride et cloud public",
+                "4" : "cloud hybride uniquement"
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez 50 machines virtuelles hébergées localement et 50 machines virtuelles hébergées dans Azure. Les machines virtuelles locales et les machines virtuelles Azure se connectent les unes aux autres.\n\nDe quel type de modèle de cloud s'agit-il ?",
+            "proposition" : {
+                "1" : "hybride",
+                "2" : "privé",
+                "3" : "Publique"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise prévoit de migrer toutes ses données et ressources vers Azure.\n\nLe plan de migration de l'entreprise indique que seules les solutions de plate-forme en tant que service (PaaS) doivent être utilisées dans Azure. Vous devez déployer un environnement Azure qui répond au plan de migration de l'entreprise.\n\nSolution : vous créez des machines virtuelles Azure, des bases de données Azure SQL et des comptes de stockage Azure. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise prévoit de déployer plusieurs applications personnalisées sur Azure. Les applications fourniront des services de facturation aux clients de l'entreprise. Chaque application aura plusieurs applications et services prérequis installés.\n\nVous devez recommander une solution de déploiement cloud pour toutes les applications. Que devriez-vous recommander?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez créer un groupe de ressources à l'intérieur d'un autre groupe de ressources.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Une machine virtuelle Azure peut se trouver dans plusieurs groupes de ressources.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un groupe de ressources peut contenir des ressources de plusieurs régions Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Microsoft SQL Server 2019 installed on an Azure virtual machine is an example of platform\nas a service (PaaS).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure SQL Database is an example of platform as a service (PaaS).\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Cosmos DB is an example of software as a service (SaaS).\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise prévoit de migrer toutes ses données et ressources vers Azure.\n\nLe plan de migration de l'entreprise indique que seules les solutions de plate-forme en tant que service (PaaS) doivent être utilisées dans Azure. Vous devez déployer un environnement Azure qui répond au plan de migration de l'entreprise.\n\nQue devez-vous créer ?",
+            "proposition" : {
+                "1" : "Machines virtuelles Azure, bases de données Azure SQL et comptes de stockage Azure.",
+                "2" : "un service d'application Azure et des machines virtuelles Azure sur lesquelles Microsoft SQL Server est installé.",
+                "3" : "une base de données Azure App Service et Azure SQL.",
+                "4" : "Comptes de stockage Azure et serveur Web dans les machines virtuelles Azure."
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Que propose un client dans un modèle de logiciel en tant que service (SaaS) ?\n\n",
+            "proposition" : {
+                "1" : "Application Data",
+                "2" : "stockage de données",
+                "3" : "ressources de calcul",
+                "4" : "logiciel d'application"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Files est un exemple d'infrastructure en tant que service\n(IaaS).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un serveur DNS qui s'exécute sur une machine virtuelle Azure\nest un exemple de plateforme en tant que service (PaaS).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Microsoft lntune est un exemple de logiciel en tant que service\n(SaaS).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Quelle est la première étape du Microsoft Cloud Adoption Framework pour Azure ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "When you need to delegate permission to several Azure Machine simultaneously",
+            "proposition" : {
+                "1" : "to the same Azure region",
+                "2" : "by using the same Azure Resource Manager template",
+                "3" : "to the same resource group",
+                "4" : "to the same availability zone"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous devez vous assurer que les services exécutés sur les machines virtuelles sont disponibles en cas de défaillance d'un seul centre de données. Solution : vous déployez les machines virtuelles dans deux zones de disponibilité ou plus.\n\nCela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct.\n\nL'un des avantages d'Azure SQL Data Warehouse est que la haute disponibilité est intégrée à la plate-forme.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.",
+            "proposition" : {
+
+                "1" : "Aucun changement n'est nécessaire",
+                "2" : "mise à l'échelle automatique",
+                "3" : "compression de données",
+                "4" : "gestion des versions"
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "n. Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez vous assurer que les services exécutés sur les machines virtuelles sont disponibles en cas de défaillance d'un seul centre de données. Solution : vous déployez les machines virtuelles dans deux régions ou plus.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les ressources Azure ne peuvent accéder qu'aux autres ressources du même groupe de ressources.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous supprimez un groupe de ressources, toutes les ressources du groupe de ressources seront supprimées.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un groupe de ressources peut contenir des ressources de plusieurs régions Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Vous prévoyez de stocker 20 To de données dans Azure. Les données seront consultées peu fréquemment et visualisées à l'aide de Microsoft Power BI. Vous devez recommander une solution de stockage pour les données.\n\nQuelles deux solutions devriez-vous recommander? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+                "1" : "Lac de données Azure",
+                "2" : "Base de données Azure Cosmos",
+                "3" : "Entrepôt de données Azure SQL",
+                "4" : "Base de données SQL Azure",
+                "5" : "Base de données Azure pour PostgreSQL"
+
+
+            },
+            "reponse" : "AC"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous devez identifier le type de défaillance pour lequel une zone de disponibilité Azure peut être utilisée pour protéger l'accès aux services Azure. Que faut-il identifier ?",
+            "proposition" : {
+                "1" : "une panne de serveur physique",
+                "2" : "un échec de la région Azure",
+                "3" : "une panne de stockage",
+                "4" : "une panne du centre de données Azure"
+
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 1,
+            "question" : " Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez vous assurer que les services exécutés sur les machines virtuelles sont disponibles en cas de défaillance d'un seul centre de données. Solution : vous déployez les machines virtuelles sur deux groupes de ressources ou plus.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez vous assurer que les services exécutés sur les machines virtuelles sont disponibles en cas de défaillance d'un seul centre de données. Solution : vous déployez les machines virtuelles sur un groupe identique.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un abonnement Azure peut être associé à plusieurs Azure Active\nLocataires d'annuaire (Azure AD).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez modifier le locataire Azure Active Directory (Azure AD) auquel un\nL'abonnement Azure est associé.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Lorsqu'un abonnement Azure expire, le Azure Active associé\nLe locataire d'annuaire (Azure AD) est supprimé automatiquement.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct.\n\nLes groupes de ressources offrent aux organisations la possibilité de gérer la conformité des ressources Azure sur plusieurs abonnements. Instructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.\n\n",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire",
+                "2" : "Groupes de gestion",
+                "3" : "Politiques Azure",
+                "4" : "Forfaits Azure App Service"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Votre entreprise envisage de migrer vers Azure. L'entreprise compte plusieurs départements. Toutes les ressources Azure utilisées par chaque service seront gérées par un administrateur de service.\n\nQuelles sont les deux techniques possibles pour segmenter Azure pour les départements ? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.\n\n",
+            "proposition" : {
+                "1" : "plusieurs abonnements",
+                "2" : "plusieurs répertoires Azure Active Directory (Azure AD)",
+                "3" : "plusieurs régions",
+                "4" : "plusieurs groupes de ressources"
+
+            },
+            "reponse" : "AD"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Two azure subscrtion can be merged into a single subscription",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 3,
+            "question" : " Vous devez recommander les ressources Azure à créer pour la solution planifiée.\n\nQuelles deux ressources Azure devez-vous inclure dans la recommandation ? Chaque bonne réponse présente une partie de la solution. REMARQUE : chaque bonne sélection vaut un point.\n\n",
+            "proposition" : {
+
+                "1" : "une passerelle de réseau virtuel",
+                "2" : "un équilibreur de charge",
+                "3" : "une passerelle applicative",
+                "4" : "un réseau virtuel",
+                "5" : "un sous-réseau de passerelle"
+
+            },
+            "reponse" : "AE"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous essayez de créer plusieurs instances Microsoft SQL Server gérées dans un environnement Azure et recevez un message indiquant que vous devez augmenter vos limites d'abonnement Azure.\n\nQue faire pour augmenter les limites ?\n\n",
+            "proposition" : {
+                "1" : "Créer une alerte de santé de service",
+                "2" : "Mettez à niveau votre plan d'assistance",
+                "3" : "Modifier une stratégie Azure",
+                "4" : "Créer une nouvelle demande d'assistance"
+
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Chaque abonnement Azure peut contenir plusieurs administrateurs de compte.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Chaque abonnement Azure peut être géré à l'aide d'un compte Microsoft uniquement.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un groupe de ressources Azure contient plusieurs abonnements Azure",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les zones de disponibilité sont utilisées pour répliquer les données et les applications\nà plusieurs régions.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Seules les machines virtuelles qui exécutent Windows Server peuvent être\ncréés dans les zones de disponibilité.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les zones de disponibilité peuvent être implémentées dans toutes les régions Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Votre entreprise prévoit de déplacer plusieurs serveurs vers Azure.\n\nLa politique de conformité de l'entreprise stipule qu'un serveur nommé FinServer doit se trouver sur un segment de réseau distinct. Vous évaluez quels services Azure peuvent être utilisés pour répondre aux exigences de la stratégie de conformité.\n\nQuelle solution Azure devriez-vous recommander ?",
+            "proposition" : {
+                "1" : "un groupe de ressources pour FinServer et un autre groupe de ressources pour tous les autres serveurs",
+                "2" : "un réseau virtuel pour FinServer et un autre réseau virtuel pour tous les autres serveurs",
+                "3" : "un VPN pour FinServer et une passerelle de réseau virtuel pour chaque autre serveur",
+                "4" : "un groupe de ressources pour tous les serveurs et un verrou de ressource pour FinServer"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous prévoyez de mapper un lecteur réseau à partir de plusieurs ordinateurs exécutant Windows 10 vers le stockage Azure. Vous devez créer une solution de stockage dans Azure pour le lecteur mappé prévu.\n\nQue devez-vous créer ?",
+            "proposition" : {
+                "1" : "une base de données Azure SQL",
+                "2" : "un disque de données de machine virtuelle",
+                "3" : "un service de fichiers dans un compte de stockage",
+                "4" : "un service Blob dans un compte de stockage"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Toutes les ressources Azure déployées dans un \ngroupe de ressources doit utiliser le même \nAzure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous affectez une balise à un groupe de ressources, toutes les \nRessources Azure dans ce groupe de ressources sont \nattribué à la même balise",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous attribuez des autorisations à un utilisateur pour gérer \nun groupe de ressources, l'utilisateur peut gérer tous les \nAzure dans ce groupe de ressources. ",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Quel service Azure devez-vous utiliser pour collecter les événements de plusieurs ressources dans un référentiel centralisé ?\n\n",
+            "proposition" : {
+
+                "1" : "Centres d'événements Azure",
+                "2" : "Services d'analyse Azure",
+                "3" : "Moniteur Azure",
+                "4" : "Azure Stream Analytics"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les données stockées dans un compte de stockage Azure ont automatiquement au moins trois copies.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Toutes les données copiées sur un compte azure storage sont sauvegardées automatiquement sur un autre",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Centre de données Azure.\nUn compte Azure Storage peut contenir jusqu’à 2 To de données et jusqu’à un million ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous avez déployé des ressources Azure dans chaque région, vous pouvez implémenter des zones de disponibilité dans toutes les régions.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Seules les machines virtuelles qui exécutent Windows Server peuvent être créées dans les zones de disponibilité.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Les zones de disponibilité sont utilisées pour répliquer les données et les applications dans plusieurs régions.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "L'Amérique du Nord est représentée par une seule région Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Chaque région Azure possède plusieurs centres de donnée",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Transferts de données entre services Azure situés dans différents Azure \nles régions sont toujours libres.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Après avoir répondu à une question dans cette section, vous ne pourrez PAS y revenir. Par conséquent, ces questions n'apparaîtront pas dans l'écran de révision. Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez vous assurer que les services exécutés sur les machines virtuelles sont disponibles en cas de défaillance d'un seul centre de données. Solution : vous déployez les machines virtuelles sur deux groupes identiques ou plus.\n\nCela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous devez être averti lorsque Microsoft prévoit d'effectuer une maintenance qui peut affecter les ressources déployées sur un abonnement Azure. Que devez-vous utiliser ?\n\n",
+            "proposition" : {
+                "1" : "Moniteur Azure",
+                "2" : "Azure Service Health",
+                "3" : "Conseiller Azure",
+                "4" : "Centre de confiance Microsoft"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser les zones de disponibilité dans Azure pour\nprotéger les machines virtuelles Azure contre défaillance du centre de données.",
+            "proposition" : {
+
+
+            },
+            "reponse" : ""
+
+
+        },
+        {
+            "type": 1,
+            "question" : "",
+            "proposition" : {
+
+
+            },
+            "reponse" : ""
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser les zones de disponibilité dans Azure pour\nprotéger les machines virtuelles Azure  contre les défaillance du centre de données.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser les zones de disponibilité dans Azure pour\nprotéger les machines virtuelles Azure d'une région\néchec.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser les zones de disponibilité dans Azure pour\nprotéger les disques managés Azure d'un\ndéfaillance du centre de données.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez vous assurer que les services exécutés sur les machines virtuelles restent disponibles en cas de défaillance d'un seul centre de données. Quelles sont les deux solutions possibles ? Chaque bonne réponse présente une solution complète.\n\n",
+            "proposition" : {
+
+                "1" : "Déployez les machines virtuelles sur au moins deux zones de disponibilité.",
+                "2" : "Déployez les machines virtuelles sur au moins deux groupes de ressources.",
+                "3" : "Déployez les machines virtuelles sur un groupe identique.",
+                "4" : "Déployez les machines virtuelles dans deux régions ou plus."
+
+            },
+            "reponse" : "AD"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Une équipe de développeurs de votre entreprise prévoit de déployer, puis de supprimer, 50 machines virtuelles personnalisées chaque semaine. Trente des machines virtuelles exécutent Windows\n\nLe serveur 2016 et 20 des machines virtuelles exécutent Ubuntu Linux.\n\nVous devez recommander quel service Azure minimisera l'effort administratif requis pour déployer et supprimer les machines virtuelles. Que devriez-vous recommander?",
+            "proposition" : {
+                "1" : "Instances de machines virtuelles (VM) réservées Azure",
+                "2" : "Ensembles identiques de machines virtuelles Azure",
+                "3" : "Azure DevTest Labs",
+                "4" : "Bureau géré Microsoft"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Un ingénieur de support prévoit d'effectuer plusieurs tâches de gestion Azure à l'aide d'Azure CLI. Vous installez la CLI sur un ordinateur.\n\nVous devez indiquer à l'ingénieur de support quels outils utiliser pour exécuter l'interface de ligne de commande.\n\nQuels outils devez-vous demander à l'ingénieur d'assistance d'utiliser ? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.\n\n",
+            "proposition" : {
+
+                "1" : "Invite de commandes",
+                "2" : "Explorateur de ressources Azure",
+                "3" : "Windows PowerShell",
+                "4" : "Pare-feu Windows Defender",
+                "5" : "Centre de réseau et partage"
+
+            },
+            "reponse" : "AC"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un environnement Azure. Vous devez créer une nouvelle machine virtuelle Azure à partir d'une tablette qui exécute le système d'exploitation Android.\n\nSolution : vous utilisez PowerShell dans Azure Cloud Shell. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un environnement Azure. Vous devez créer une nouvelle machine virtuelle Azure à partir d'une tablette qui exécute le système d'exploitation Android.\n\nSolution : vous utilisez le portail PowerApps. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un environnement Azure. Vous devez créer une nouvelle machine virtuelle Azure à partir d'une tablette qui exécute le système d'exploitation Android.\n\nSolution : vous utilisez le portail Azure. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Monitor peut surveiller les performances des locaux des ordinateurs.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Monitor peut envoyer des alertes à la sécurité Azure Active Directory groupes.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Monitor peut déclencher des alertes en fonction des données d'un journal Azure\nEspace de travail analytique.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Quel service Azure fournit un ensemble d'outils de contrôle de version pour gérer le code ?",
+            "proposition" : {
+
+                "1" : "Dépôt Azure",
+                "2" : "Azure DevTest Labs",
+                "3" : "Stockage Azure",
+                "4" : "Base de données Azure Cosmos"
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous disposez d'une machine virtuelle nommée VM1 qui exécute Windows Server 2016. VM1 se trouve dans la région Azure Est des États-Unis.\n\nQuel service Azure devez-vous utiliser à partir du portail Azure pour afficher les notifications d'échec de service qui peuvent affecter la disponibilité de VM1 ?",
+            "proposition" : {
+                "1" : "Azure Service Fabric",
+                "2" : "Moniteur Azure",
+                "3" : "Machines virtuelles Azure",
+                "4" : "Conseiller Azure"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un administrateur Azure prévoit d'exécuter un script PowerShell qui crée des ressources Azure.\n\nVous devez recommander la configuration de l'ordinateur à utiliser pour exécuter le script.\n\nSolution : exécutez le script à partir d'un ordinateur qui exécute Linux et sur lequel les outils Azure CLI sont installés. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un administrateur Azure prévoit d'exécuter un script PowerShell qui crée des ressources Azure.\n\nVous devez recommander la configuration de l'ordinateur à utiliser pour exécuter le script.\n\nSolution : exécutez le script à partir d'un ordinateur qui exécute Chrome OS et utilise Azure Cloud Shell. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un administrateur Azure prévoit d'exécuter un script PowerShell qui crée des ressources Azure.\n\nVous devez recommander la configuration de l'ordinateur à utiliser pour exécuter le script.\n\nSolution : exécutez le script à partir d'un ordinateur qui exécute macOS et sur lequel PowerShell Core 6.0 est installé. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un environnement Azure. Vous devez créer une nouvelle machine virtuelle Azure à partir d'une tablette qui exécute le système d'exploitation Android.\n\nSolution : vous utilisez Bash dans Azure Cloud Shell. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous disposez d'une application sur site qui envoie automatiquement des notifications par e-mail en fonction d'une règle. Vous prévoyez de migrer l'application vers Azure.\n\nVous devez recommander une solution informatique sans serveur pour l'application. Que devez-vous inclure dans la recommandation ?",
+            "proposition" : {
+                "1" : "une application web",
+                "2" : "a server image in Azure Marketplace",
+                "3" : "a logic app",
+                "4" : "an API app"
+
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous envisagez de déployer un site Web sur Azure. Le site Web sera accessible aux utilisateurs du monde entier et hébergera de gros fichiers vidéo. Vous devez recommander la fonctionnalité Azure à utiliser pour offrir la meilleure expérience de lecture vidéo.\n\nQue devriez-vous recommander?\n\n",
+            "proposition" : {
+
+                "1" : "une passerelle applicative",
+                "2" : "un circuit Azure ExpressRoute",
+                "3" : "un réseau de diffusion de contenu (CDN)",
+                "4" : "un profil Azure Traffic Manager"
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Votre entreprise prévoit de déployer plusieurs millions de capteurs qui téléchargeront des données vers Azure.\n\nVous devez identifier les ressources Azure qui doivent être créées pour prendre en charge la solution planifiée. Quelles deux ressources Azure devez-vous identifier ? Chaque bonne réponse présente une partie de la solution. REMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+
+                "1" : "Lac de données Azure",
+                "2" : "Stockage de file d'attente Azure",
+                "3" : "Stockage de fichiers Azure",
+                "4" : "Azure IoT Hub",
+                "5" : "Centres de notifications Azure"
+
+            },
+            "reponse" : "AD"
+
+
+        },
+        {
+            "type": 3,
+            "question" : "Vous avez une application web Azure.\n\nVous devez gérer les paramètres de l'application Web à partir d'un iPhone.\n\nQuels sont les deux outils de gestion Azure que vous pouvez utiliser ? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+                "1" : "CLI Azure",
+                "2" : "le portail Azure",
+                "3" : "Azure Cloud Shell",
+                "4" : "Windows PowerShell",
+                "5" : "Explorateur de stockage Azure"
+
+
+            },
+            "reponse" : "BC"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise envisage de déployer une solution d'intelligence artificielle (IA) dans Azure.\n\nQue doit utiliser l'entreprise pour créer, tester et déployer des solutions d'analyse prédictive ?\n\n",
+            "proposition" : {
+                "1" : "pplications logiques Azure",
+                "2" : "Concepteur d'apprentissage machine Azure",
+                "3" : "Lot Azure",
+                "4" : "Base de données Azure Cosmos"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Advisor peut générer une liste de machines virtuelles Azure protégées par Azure Backup.\nSi vous implémentez les recommandations de sécurité fournies par Azure Advisor,\nle score de sécurité de votre entreprise diminuera.\nPour maintenir le support Microsoft, vous devez implémenter les recommandations de sécurité\nfourni par Azure Advisor dans un délai de 30 jours.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Si vous implémentez les recommandations de sécurité fournies par Azure Advisor,\nle score de sécurité de votre entreprise diminuera.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Pour maintenir le support Microsoft, vous devez implémenter les recommandations de sécurité \nfourni par Azure Advisor dans un délai de 30 jours.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Que pouvez-vous utiliser pour envoyer automatiquement une alerte si un administrateur arrête une machine virtuelle Azure ?\n\n",
+            "proposition" : {
+
+                "1" : "Conseiller Azure",
+                "2" : "Azure Service Health",
+                "3" : "Moniteur Azure",
+                "4" : "Observateur de réseau Azure"
+
+            },
+            "reponse" : "C"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un environnement Azure.\n\nVous devez créer une nouvelle machine virtuelle Azure à partir d'une tablette qui exécute le système d'exploitation Android. Quelles sont les trois solutions possibles ? Chaque bonne réponse présente une solution complète.\n\nREMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+                "1" : "Use Bash in Azure Cloud Shell.",
+                "2" : "Use PowerShell in Azure Cloud Shell.",
+                "3" : "Use the PowerApps portal.",
+                "4" : "Use the Security & Compliance admin center.",
+                "5" : "Use the Azure portal."
+
+
+            },
+            "reponse" : "ABE"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Une équipe de développeurs de votre entreprise prévoit de déployer, puis de supprimer, 50 machines virtuelles chaque semaine. Toutes les machines virtuelles sont configurées à l'aide d'Azure\n\nModèles de gestionnaire de ressources.\n\nVous devez recommander quel service Azure minimisera l'effort administratif requis pour déployer et supprimer les machines virtuelles. Que devriez-vous recommander?",
+            "proposition" : {
+                "1" : "Azure Reserved Virtual Machine (VM) Instances",
+                "2" : "Azure DevTest Labs",
+                "3" : "Azure virtual machine scale sets",
+                "4" : "Microsoft Managed Desktop"
+
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Advisor fournit des recommandations sur\ncomment améliorer la sécurité d'un Azure Active\nEnvironnement d'annuaire (Azure AD).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Advisor fournit des recommandations sur\ncomment réduire le coût d'exécution d'Azure virtuel\nMachines.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Azure Advisor fournit des recommandations sur\ncomment configurer les paramètres réseau sur Azure\nmachines virtuelles.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "vous avez un abonnement Azure nommé Subscription1. Vous vous connectez au portail Azure et créez un groupe de ressources nommé RG1.\n\nDans la documentation Azure, vous disposez de la commande suivante qui crée une machine virtuelle nommée VM1. az vm create --resource-group RG1 -- name VM1 --image UbuntuLTS --generate-ssh-keys\n\nVous devez créer VM1 dans Subscription1 à l'aide de la commande.\n\nSolution : à partir du portail Azure, lancez Azure Cloud Shell et sélectionnez PowerShell. Exécutez la commande dans Cloud Shell. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un abonnement Azure nommé Subscription1. Vous vous connectez au portail Azure et créez un groupe de ressources nommé RG1.\n\nDans la documentation Azure, vous disposez de la commande suivante qui crée une machine virtuelle nommée VM1. az vm create --resource-group RG1 -- name VM1 --image UbuntuLTS\n\n--generate-ssh-keys\n\nVous devez créer VM1 dans Subscription1 à l'aide de la commande.\n\nSolution : à partir d'un ordinateur qui exécute Windows 10, installez Azure CLI. À partir de PowerShell, connectez-vous à Azure, puis exécutez la commande. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un abonnement Azure nommé Subscription1. Vous vous connectez au portail Azure et créez un groupe de ressources nommé RG1.\n\nDans la documentation Azure, vous disposez de la commande suivante qui crée une machine virtuelle nommée VM1. az vm create --resource-group RG1 -- name VM1 --image UbuntuLTS\n\n--generate-ssh-keys\n\nVous devez créer VM1 dans Subscription1 à l'aide de la commande.\n\nSolution : à partir d'un ordinateur qui exécute Windows 10, installez Azure CLI. À partir d'une invite de commandes, connectez-vous à Azure, puis exécutez la commande. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Un administrateur Azure prévoit d'exécuter un script PowerShell qui crée des ressources Azure.\n\nVous devez recommander la configuration de l'ordinateur à utiliser pour exécuter le script.\n\nSolution : exécutez le script à partir d'un ordinateur qui exécute Windows 10 et sur lequel le module Azure PowerShell est installé. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Quel service fournit l'informatique sans serveur dans Azure ?",
+            "proposition" : {
+
+                "1" : "Azure Virtual Machines",
+                "2" : "Azure Functions",
+                "3" : "Azure storage account",
+                "4" : "Azure dedicated hosts"
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Un administrateur Azure prévoit d'exécuter un script PowerShell qui crée des ressources Azure. Vous devez recommander la configuration de l'ordinateur à utiliser pour exécuter le script.\n\nQuels sont les trois ordinateurs qui peuvent exécuter le script ? Chaque bonne réponse présente une solution complète. REMARQUE : chaque bonne sélection vaut un point.\n\n",
+            "proposition" : {
+
+                "1" : "a computer that runs macOS and has PowerShell Core 6.0 installed.",
+                "2" : "a computer that runs Windows 10 and has the Azure PowerShell module installed.",
+                "3" : "a computer that runs Linux and has the Azure PowerShell module installed.",
+                "4" : "a computer that runs Linux and has the Azure CLI tools installed.",
+                "5" : "a computer that runs Chrome OS and uses Azure Cloud Shell."
+
+            },
+            "reponse" : "ABE"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous avez un abonnement Azure nommé Subscription1. Vous vous connectez au portail Azure et créez un groupe de ressources nommé RG1.\n\nDans la documentation Azure, vous disposez de la commande suivante qui crée une machine virtuelle nommée VM1. az vm create --resource-group RG1 -- name VM1 --image UbuntuLTS --generate-ssh-keys\n\nVous devez créer VM1 dans Subscription1 à l'aide de la commande.\n\nSolution : à partir du portail Azure, lancez Azure Cloud Shell et sélectionnez Bash. Exécutez la commande dans Cloud Shell. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre entreprise a plusieurs unités d'affaires.\n\nChaque unité commerciale nécessite 20 ressources Azure différentes pour un fonctionnement quotidien. Toutes les unités commerciales nécessitent le même type de ressources Azure. Vous devez recommander une solution pour automatiser la création des ressources Azure.\n\nQue devriez-vous inclure dans les recommandations?",
+            "proposition" : {
+                "1" : "Modèles Azure Resource Manager",
+                "2" : "ensembles identiques de machines virtuelles",
+                "3" : "le service Azure API Management",
+                "4" : "groupes de gestion"
+
+
+            },
+            "reponse" : "A"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser Azure Cost Management pour afficher les coûts associés aux groupes d'administration.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser Azure Cost Management pour afficher les coûts associés\naux groupes de ressources.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez utiliser Azure Cost Management pour afficher l'utilisation de\nmachines virtuelles au cours des trois derniers mois.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Vous devez configurer une solution Azure qui répond aux exigences suivantes :\n\nSécurise les sites Web contre les attaques\n\n Génère des rapports contenant des détails sur les tentatives d'attaques Que devez-vous inclure dans la solution ?",
+            "proposition" : {
+                "1" : "Pare-feu Azure",
+                "2" : "un groupe de sécurité réseau (NSG)",
+                "3" : "Protection des informations Azure",
+                "4" : "Protection DDoS"
+
+
+            },
+            "reponse" : "D"
+
+
+        },
+        {
+            "type": 2,
+            "question" : "Votre environnement Azure contient plusieurs machines virtuelles Azure.\n\nVous devez vous assurer qu'une machine virtuelle nommée VM1 est accessible depuis Internet via HTTP. Quelles sont les deux solutions possibles ? Chaque bonne réponse présente une solution complète.\n\nREMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+
+                "1" : "Modifier un profil Azure Traffi c Manager",
+                "2" : "Modifier un groupe de sécurité réseau (NSG)",
+                "3" : "Modifier un plan de protection DDoS",
+                "4" : "Modifier un pare-feu Azure"
+
+            },
+            "reponse" : "B"
+
+
+        },
+        {
+            "type": 1,
+            "question" : "Vous pouvez associer un groupe de sécurité réseau (N86) à un\nsous-réseau de réseau virtuel.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez associer un groupe de sécurité réseau (N56) à un\nréseau virtuel.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez associer un groupe de sécurité réseau (N56) à un\ninterface réseau.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous disposez d'un environnement Azure qui contient 10 réseaux virtuels et 100 machines virtuelles. Vous devez limiter la quantité de trafic entrant à tous les réseaux virtuels Azure.\n\nQue devez-vous créer ?",
+            "proposition" : {
+                "1" : "un groupe de sécurité des applications (ASG)",
+                "2" : "10 passerelles de réseau virtuel",
+                "3" : "10 circuits Azure ExpressRoute",
+                "4" : "un pare-feu Azure"
+
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct. Azure Key Vault est utilisé pour stocker les secrets des comptes d'utilisateurs Azure Active Directory (Azure AD).\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire",
+                "2" : "Comptes administratifs Azure Active Directory (Azure AD)",
+                "3" : "Informations personnellement identifiables (PII)",
+                "4" : "applications serveur"
+
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise prévoit d'automatiser le déploiement de serveurs sur Azure.\n\nVotre responsable craint que vous n'exposiez des informations d'identification administratives pendant le déploiement.\n\nVous devez recommander une solution Azure qui chiffre les informations d'identification administratives pendant le déploiement. Que devez-vous inclure dans la recommandation ?\n\n",
+            "proposition" : {
+                "1" : "Coffre de clés Azure",
+                "2" : "Protection des informations Azure",
+                "3" : "Centre de sécurité Azure",
+                "4" : "Authentification multifacteur Azure (MFA)"
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous prévoyez de déployer plusieurs machines virtuelles Azure.\n\nVous devez contrôler les ports que les appareils sur Internet peuvent utiliser pour accéder aux machines virtuelles. Que devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "un groupe de sécurité réseau (NSG)",
+                "2" : "un rôle Azure Active Directory (Azure AD)",
+                "3" : "un groupe Azure Active Directory",
+                "4" : "un coffre de clés Azure"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez créer des rôles Azure personnalisés pour contrôler l'accès aux ressources.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Un compte d'utilisateur peut être affecté à plusieurs rôles Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Un groupe de ressources peut avoir le rôle Propriétaire attribué à plusieurs utilisateurs.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre environnement Azure contient plusieurs machines virtuelles Azure.\n\nVous devez vous assurer qu'une machine virtuelle nommée VM1 est accessible depuis Internet via HTTP. Solution : vous modifiez un plan de protection DDoS.\n\nCela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous devez collecter et analyser automatiquement les événements de sécurité à partir d'Azure Active Directory (Azure AD). Que devez-vous utiliser ?\n\n",
+            "proposition" : {
+
+                "1" : "Sentinelle Azure",
+                "2" : "Azure Synapse Analytics",
+                "3" : "Azure AD Connect",
+                "4" : "Coffre de clés Azure"
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre environnement Azure contient plusieurs machines virtuelles Azure.\n\nVous devez vous assurer qu'une machine virtuelle nommée VM1 est accessible depuis Internet via HTTP. Solution : vous modifiez un pare-feu Azure.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : " Votre environnement Azure contient plusieurs machines virtuelles Azure.\n\nVous devez vous assurer qu'une machine virtuelle nommée VM1 est accessible depuis Internet via HTTP. Solution : vous modifiez un profil Azure Traffi c Manager.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise prévoit de déployer plusieurs serveurs Web et plusieurs serveurs de bases de données sur Azure.\n\nVous devez recommander une solution Azure pour limiter les types de connexions des serveurs Web aux serveurs de base de données. Que devez-vous inclure dans la recommandation ?",
+            "proposition" : {
+
+                "1" : "groupes de sécurité réseau (NSG)",
+                "2" : "Bus de services Azure",
+                "3" : "une passerelle de réseau local",
+                "4" : "un filtre d'itinéraire"
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Quel service fournit le filtrage du trafic réseau sur plusieurs abonnements Azure et réseaux virtuels ?",
+            "proposition" : {
+                "1" : "Pare-feu Azure",
+                "2" : "un groupe de sécurité des applications",
+                "3" : "Protection DDoS Azure",
+                "4" : "un groupe de sécurité réseau (NSG)"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Quel service Azure pouvez-vous utiliser comme solution de gestion des informations et des événements de sécurité (SIEM) ?",
+            "proposition" : {
+
+                "1" : "Azure Analysis Services",
+                "2" : "Azure Sentinel",
+                "3" : "Azure Information Protection",
+                "4" : "Azure Cognitive Services"
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Sentinel stocke les événements collectés dans un compte de stockage Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Sentinel peut résoudre les incidents automatiquement.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Sentinel peut collecter les journaux du pare-feu Windows Defender à partir des machines virtuelles Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Security Center peut surveiller les ressources Azure et sur-\nressources des locaux.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Toutes les fonctionnalités Azure Security Center sont gratuites.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Depuis Azure Security Center, vous pouvez télécharger un\nRapport de conformité.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise a un abonnement Azure qui contient des ressources dans plusieurs régions.\n\nVous devez créer la ressource Azure qui doit être utilisée pour répondre aux exigences de la stratégie. Que devez-vous créer ?\n\n",
+            "proposition" : {
+
+                "1" : "a read-only lock",
+                "2" : " an Azure policy",
+                "3" : " a management group",
+                "4" : " a reservation"
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct.\n\nDepuis Azure Cloud Shell, vous pouvez suivre les normes et réglementations réglementaires de votre entreprise, telles que ISO 27001.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire. » Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire.",
+                "2" : "le portail des partenaires Cloud de Microsoft",
+                "3" : "Gestionnaire de la conformité",
+                "4" : "le Centre de Confiance"
+
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez créer des stratégies de groupe dans Azure Active Directory (Azure AD).\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez joindre des appareils Windows 10 à Azure Active Directory (Azure AD)\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez joindre des appareils Android à Azure Active Directory (Azure AD).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "General Data Protection Regulation (GDPR) defines data protection\nand privacy rules.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "General Data Protection Regulation (GDPR) applies to companies\nthat offer goods or services to individuals in the EU.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure can be used to build a General Data Protection Regulation\n(GDPR)-compliant infrastructure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "",
+            "proposition" : {
+
+
+            },
+            "reponse" : ""
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez ajouter un modèle Azure Resource Manager à un Blueprint Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez affecter un Blueprint Azure à un groupe de ressources.\nV",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous pouvez utiliser Azure Blueprints pour accorder des autorisations à une ressource.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Chine est exploité par Microsoft.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Government est exploité par Microsoft.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Government est disponible uniquement aux États-Unis\nagences gouvernementales et leurs partenaires.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "An Azure resource can have multiple Delete locks.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "An Azure resource inherits locks from its resource group.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "If an Azure resource has a Read-only lock, you can add a Delete\nlock to the resource.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise prévoit de migrer toutes les données locales vers Azure.\n\nVous devez déterminer si Azure est conforme aux exigences régionales de l'entreprise. Que devez-vous utiliser ?\n\n",
+            "proposition" : {
+
+                "1" : "le centre de connaissances",
+                "2" : "Place de marché Azure",
+                "3" : "le portail MyApps",
+                "4" : "le Centre de Confiance"
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct. Azure Allemagne ne peut être utilisé que par les résidents légaux d'Allemagne.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.",
+            "proposition" : {
+                "1" : "aucun changement n'est nécessaire",
+                "2" : "seules les entreprises enregistrées en Allemagne",
+                "3" : "uniquement les entreprises qui achètent leurs licences Azure auprès d'un partenaire basé en Allemagne",
+                "4" : "tout utilisateur ou entreprise qui exige que ses données résident en Allemagne"
+
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 1,
+            "question" : "Les identités stockées dans un Active Directory local peuvent être synchronisées avec Azure Active Directory (Azure AD).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Les identités stockées dans Azure Active Directory (Azure AD), les services cloud tiers et Active Directory sur site peuvent être utilisées pour accéder aux ressources Azure.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure dispose de services d'authentification et d'autorisation intégrés qui fournissent un accès sécurisé aux ressources Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Que devez-vous utiliser pour évaluer si l'environnement Azure de votre entreprise répond aux exigences réglementaires ?",
+            "proposition" : {
+
+                "1" : "Azure Service Health",
+                "2" : "Centre de connaissances Azure",
+                "3" : "Centre de sécurité Azure",
+                "4" : "Conseiller Azure"
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 3,
+            "question" : "Quels sont les deux types de clients éligibles pour utiliser Azure Government pour développer une solution cloud ? Chaque bonne réponse présente une solution complète.\n\nREMARQUE : chaque bonne sélection vaut un point.",
+            "proposition" : {
+                "1" : "un entrepreneur du gouvernement canadien",
+                "2" : "un entrepreneur du gouvernement européen",
+                "3" : "une entité du gouvernement des États-Unis",
+                "4" : "un entrepreneur du gouvernement des États-Unis",
+                "5" : "une entité gouvernementale européenne"
+
+
+            },
+            "reponse" : "CD"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous devez vous assurer que lorsque les utilisateurs Azure Active Directory (Azure AD) se connectent à Azure AD depuis Internet en utilisant une adresse IP anonyme, les utilisateurs sont automatiquement invités à modifier leur mot de passe.\n\nQuel service Azure devez-vous utiliser ?",
+            "proposition" : {
+                "1" : "Santé Azure AD Connect",
+                "2" : "Gestion des identités privilégiées Azure AD",
+                "3" : "Azure Advanced Threat Protection (ATP)",
+                "4" : "Protection d'identité Azure AD"
+
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre réseau contient une forêt Active Directory. La forêt contient 5 000 comptes d'utilisateurs.\n\nVotre entreprise prévoit de migrer toutes les ressources réseau vers Azure et de mettre hors service le centre de données sur site. Vous devez recommander une solution pour minimiser l'impact sur les utilisateurs après la migration planifiée.\n\nQue devriez-vous recommander?\n\n",
+            "proposition" : {
+                "1" : "Implémenter Azure Multi-Factor Authentication (MFA)",
+                "2" : "Synchronisez tous les comptes d'utilisateurs Active Directory avec Azure Active Directory (Azure AD)",
+                "3" : "Demander à tous les utilisateurs de changer leur mot de passe",
+                "4" : "Créer un compte d'utilisateur invité dans Azure Active Directory (Azure AD) pour chaque utilisateur"
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous avez un groupe de ressources nommé RG1.\n\nVous devez empêcher la création de machines virtuelles dans RG1. La solution doit garantir que d'autres objets peuvent être créés dans RG1. Que devez-vous utiliser ?\n\n",
+            "proposition" : {
+
+                "1" : "un verrou",
+                "2" : "un rôle Azure",
+                "3" : "Une étiquette",
+                "4" : "une politique Azure"
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 2,
+            "question" : "Vous avez un abonnement Azure et 100 appareils Windows 10.\n\nVous devez vous assurer que seuls les utilisateurs dont les appareils disposent des derniers correctifs de sécurité installés peuvent accéder aux applications intégrées à Azure Active Directory (Azure AD).\n\nQue devez-vous mettre en œuvre ?",
+            "proposition" : {
+
+                "1" : "une politique d'accès conditionnel",
+                "2" : "Bastion d'Azur",
+                "3" : "Pare-feu Azure",
+                "4" : "Politique Azure"
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Que peut chiffrer Azure Information Protection ?",
+            "proposition" : {
+                "1" : "trafic réseau",
+                "2" : "documents et messages électroniques",
+                "3" : "un compte de stockage Azure",
+                "4" : "une base de données Azure SQL"
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 1,
+            "question" : "Que devez-vous utiliser pour évaluer si l'environnement Azure de votre entreprise répond aux exigences réglementaires ?",
+            "proposition" : {
+                "1" : "le site du Centre de connaissances",
+                "2" : "la lame Advisor du portail Azure",
+                "3" : "Responsable de la conformité du portail Service Trust",
+                "4" : "le panneau Solutions du portail Azure"
+
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 1,
+            "question" : "Vous avez un abonnement Azure.\n\nOù trouverez-vous des détails sur les données personnelles collectées par Microsoft, comment Microsoft utilise les données et à quoi servent les données ?\n\n",
+            "proposition" : {
+                "1" : "l'addendum sur la protection des données",
+                "2" : "les conditions des services en ligne Microsoft",
+                "3" : "la déclaration de confidentialité de Microsoft",
+                "4" : "Centre de sécurité Azure"
+
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Active Directory (Azure AD) peut être utilisé pour gérer l'accès aux applications locales.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Azure Active Directory (Azure AD) fournit une authentification unique (SSO).\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Les appareils iOS peuvent être enregistrés dans Azure Active Directory (Azure AD).",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "",
+            "proposition" : {
+
+
+            },
+            "reponse" : ""
+
+
+        },{
+            "type": 2,
+            "question" : "Quelle tâche pouvez-vous effectuer en utilisant Azure Advisor ?\n\n",
+            "proposition" : {
+                "1" : "Intégrez Active Directory et Azure Active Directory (Azure AD).",
+                "2" : "Estimez les coûts d'une solution Azure.",
+                "3" : "Confirmez que la sécurité des abonnements Azure suit les meilleures pratiques.",
+                "4" : "Évaluez les ressources locales qui peuvent être migrées vers Azure."
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise compte 10 bureaux. Vous prévoyez de générer plusieurs rapports de facturation à partir du portail Azure. Chaque rapport contiendra l'utilisation des ressources Azure de chaque bureau.\n\nQuelle fonctionnalité Azure Resource Manager devez-vous utiliser avant de générer les rapports ?\n\n",
+            "proposition" : {
+                "1" : "Mots clés",
+                "2" : "modèles",
+                "3" : "serrures",
+                "4" : "Stratégies"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Cette question nécessite que vous évaluiez le texte souligné pour déterminer s'il est correct.\n\nSi Microsoft prévoit de mettre fin à la prise en charge d'un service Azure qui n'a PAS de service successeur, Microsoft fournira une notification au moins 12 mois avant.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.\n\n",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire.",
+                "2" : "6 mois",
+                "3" : "90 jours",
+                "4" : "30 jours"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 1,
+            "question" : "otre entreprise dispose d'un abonnement Azure qui contient les ressources inutilisées suivantes :\n\n 20 comptes utilisateurs dans Azure Active Directory (Azure AD)\n\n Cinq groupes dans Azure AD\n\n 10 adresses IP publiques\n\n 10 interfaces réseau\n\nVous devez réduire les coûts Azure pour l'entreprise. Solution : vous supprimez les interfaces réseau inutilisées. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre entreprise dispose d'un abonnement Azure qui contient les ressources inutilisées suivantes :\n\n 20 comptes d'utilisateurs dans Azure Active Directory (Azure AD) Cinq groupes dans Azure AD -\n\n 10 adresses IP publiques\n\n 10 interfaces réseau\n\nVous devez réduire les coûts Azure pour l'entreprise. Solution : vous supprimez les adresses IP publiques inutilisées. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre entreprise dispose d'un abonnement Azure qui contient les ressources inutilisées suivantes :\n\n 20 comptes utilisateurs dans Azure Active Directory (Azure AD)\n\n Cinq groupes dans Azure AD\n\n 10 adresses IP publiques\n\n 10 interfaces réseau\n\nVous devez réduire les coûts Azure pour l'entreprise. Solution : vous supprimez les comptes d'utilisateurs inutilisés.\n\nCela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "En créant des groupes de ressources supplémentaires dans un abonnement Azure, des\ndes frais sont engagés.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "En copiant plusieurs gigabits de données vers Azure à partir d'un réseau local\nsur un VPN, des frais de transfert de données supplémentaires sont encourus.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "En copiant plusieurs Go de données depuis Azure vers un réseau local via\nun VPN, des frais de transfert de données supplémentaires sont encourus.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Une solution de plan de support qui vous donne des informations sur les meilleures pratiques, l'état de santé et les notifications, et un accès 24h/24 et 7j/7 aux informations de facturation au coût le plus bas possible est un plan de support standard.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire",
+                "2" : "Développeur",
+                "3" : "De base",
+                "4" : "Premier"
+
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 2,
+            "question" : "Dans quels plans de support Azure pouvez-vous ouvrir une nouvelle demande de support ?",
+            "proposition" : {
+
+                "1" : "Premier and Professional Direct only",
+                "2" : "Premier, Professional Direct, and Standard only",
+                "3" : "Premier, Professional Direct, Standard, and Developer only",
+                "4" : "Premier, Professional Direct, Standard, Developer, and Basic"
+
+            },
+            "reponse" : "D"
+
+
+        },{
+            "type": 1,
+            "question" : " Vous pouvez créer une demande de support Azure à partir de support.microsoft.com.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire. » Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.\n\n",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire.",
+                "2" : "le portail Azure",
+                "3" : "le centre de connaissances",
+                "4" : "le centre d'administration Sécurité & Conformité"
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre entreprise dispose d'un abonnement Azure qui contient les ressources inutilisées suivantes :\n\n 20 comptes utilisateurs dans Azure Active Directory (Azure AD)\n\n Cinq groupes dans Azure AD\n\n 10 adresses IP publiques\n\n 10 interfaces réseau\n\nVous devez réduire les coûts Azure pour l'entreprise. Solution : vous supprimez les groupes inutilisés.\n\nCela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 2,
+            "question" : "Le plan de support Azure Standard est l'option la moins chère pour recevoir un accès 24h/24 et 7j/7 aux ingénieurs de support par téléphone.\n\nInstructions : Relisez le texte souligné. Si la déclaration est correcte, sélectionnez « Aucun changement n'est nécessaire ». Si la déclaration est incorrecte, sélectionnez le choix de réponse qui rend la déclaration correcte.\n\n",
+            "proposition" : {
+                "1" : "Aucun changement n'est nécessaire",
+                "2" : "Développeur",
+                "3" : "De base",
+                "4" : "Professionnel Direct"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Qu'est-ce qui est garanti dans un contrat de niveau de service (SLA) Azure pour les machines virtuelles ?",
+            "proposition" : {
+                "1" : "disponibilité",
+                "2" : "disponibilité des fonctionnalités",
+                "3" : "bande passante",
+                "4" : "performance"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre entreprise envisage d'acheter un abonnement Azure.\n\nLa politique de support de l'entreprise stipule que l'environnement Azure doit fournir une option pour accéder aux ingénieurs de support par téléphone ou par e-mail. Vous devez recommander le plan de support qui répond aux exigences de la politique de support.\n\nSolution : Recommandez un plan d'assistance de base. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : " Votre entreprise envisage d'acheter un abonnement Azure.\n\nLa politique de support de l'entreprise stipule que l'environnement Azure doit fournir une option pour accéder aux ingénieurs de support par téléphone ou par e-mail. Vous devez recommander le plan de support qui répond aux exigences de la politique de support.\n\nSolution : Recommandez un plan d'assistance standard. Cela répond-il à l'objectif ?\n\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Votre entreprise envisage d'acheter un abonnement Azure.\n\nLa politique de support de l'entreprise stipule que l'environnement Azure doit fournir une option pour accéder aux ingénieurs de support par téléphone ou par e-mail. Vous devez recommander le plan de support qui répond aux exigences de la politique de support.\n\nSolution : Recommandez un plan d'assistance Premier. Cela répond-il à l'objectif ?",
+            "proposition" : {
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise envisage de demander une révision architecturale d'un environnement Azure à Microsoft. La société dispose actuellement d'un plan de support de base.\n\nVous devez recommander un nouveau plan de support pour l'entreprise. La solution doit minimiser les coûts. Quel plan d'assistance devriez-vous recommander ?",
+            "proposition" : {
+                "1" : "Premier",
+                "2" : "Développeur",
+                "3" : "Professionnel Direct",
+                "4" : "Standard"
+
+
+            },
+            "reponse" : "A"
+
+
+        },{
+            "type": 2,
+            "question" : "Que faut-il pour utiliser Azure Cost Management ?",
+            "proposition" : {
+                "1" : "un abonnement Dev/Test",
+                "2" : "une assurance logiciel",
+                "3" : "un accord d'entreprise (EA)",
+                "4" : "un abonnement payant"
+
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 1,
+            "question" : " Votre entreprise envisage d'acheter un abonnement Azure.\n\nLa politique de support de l'entreprise stipule que l'environnement Azure doit fournir une option pour accéder aux ingénieurs de support par téléphone ou par e-mail. Vous devez recommander le plan de support qui répond aux exigences de la politique de support.\n\nSolution : recommandez un plan de support professionnel direct. Cela répond-il à l'objectif ?\n\n\n\nOui",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise a un contrat de Software Assurance qui inclut des licences Microsoft SQL Server. Vous prévoyez de déployer SQL Server sur des machines virtuelles Azure.\n\nQue devez-vous faire pour minimiser les coûts de licence pour le déploiement ?\n\n",
+            "proposition" : {
+                "1" : "Désallouez les machines virtuelles pendant les heures creuses.",
+                "2" : "Utilisez Azure Hybrid Benefit.",
+                "3" : "Configurez les budgets Azure Cost Management.",
+                "4" : "Utilisez les réservations Azure."
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise compte 10 départements.\n\nLa société envisage de mettre en œuvre un environnement Azure.\n\nVous devez vous assurer que chaque service peut utiliser une option de paiement différente pour les services Azure qu'il consomme. Que devez-vous créer pour chaque département ?",
+            "proposition" : {
+
+                "1" : "une réservation",
+                "2" : "un abonnement",
+                "3" : "un groupe de ressources",
+                "4" : "une instance de conteneur"
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 1,
+            "question" : "Un service Azure en préversion privée est disponible pour tous les clients Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Un service Azure en préversion publique est disponible pour tous les clients Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Un service Azure en disponibilité générale est publié pour un sous-ensemble de clients Azure.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Le Service Level Agreement (SLA) garanti\nla disponibilité des services Azure payants est d'au moins 99,9\npour cent.\nLes entreprises peuvent augmenter le Service Level Agreement\n(SLA) garantie de disponibilité en ajoutant des ressources Azure\nà plusieurs régions.\nLes entreprises peuvent augmenter le Service Level Agreement\n(SLA) garantie de disponibilité en achetant plusieurs\nabonnements.\n\nProduit par http://www.structurise.com",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Les entreprises peuvent augmenter le Service Level Agreement\n(SLA) garantie de disponibilité en ajoutant des ressources Azure\nà plusieurs régions.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Les entreprises peuvent augmenter le Service Level Agreement\n(SLA) garantie de disponibilité en achetant plusieurs\nabonnements.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "À partir du portail Azure, vous pouvez faire la distinction entre les services généralement disponibles et les services en préversion publique.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Une fois qu'un service Azure devient généralement disponible, le service n'est plus mis à jour avec les nouvelles fonctionnalités.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Lorsque vous créez des ressources Azure pour un service en préversion publique, vous devez recréer les ressources une fois que le service est généralement disponible.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Lors de l'utilisation d'une connexion Azure ExpressRoute, les données entrantes\nle trafic d'un réseau local vers Azure est toujours gratuit.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 1,
+            "question" : "Le trafic de données sortant d'Azure vers un réseau local est\nToujours libre.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Le trafic de données entre les services Azure au sein de la même région Azure est toujours gratuit.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Votre entreprise dispose d'un abonnement Azure qui contient les ressources inutilisées suivantes :\n\n 20 comptes utilisateurs dans Azure Active Directory (Azure AD)\n\n Cinq groupes dans Azure AD\n\n 10 adresses IP publiques\n\n 10 interfaces réseau\n\nVous devez réduire les coûts Azure pour l'entreprise. Quelles ressources inutilisées devez-vous supprimer ?",
+            "proposition" : {
+                "1" : "es interfaces réseaux",
+                "2" : "les adresses IP publiques",
+                "3" : "les groupes",
+                "4" : "les comptes utilisateurs"
+
+
+            },
+            "reponse" : "B"
+
+
+        },{
+            "type": 1,
+            "question" : "Ajouter des groupes de ressources dans un Azure\nl'abonnement génère des coûts supplémentaires.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Copie de 10 Go de données vers Azure à partir d'un\nréseau local sur un VPN génère\nfrais de transfert de données Azure supplémentaires.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Copie de 10 Go de données d'Azure vers un\nréseau local sur un VPN génère\nfrais de transfert de données Azure supplémentaires.\n",
+            "proposition" : {
+
+
+            },
+            "reponse" : "T"
+
+
+        },{
+            "type": 2,
+            "question" : "Qui peut utiliser le calculateur de coût total de possession (TCO) Azure ?",
+            "proposition" : {
+
+                "1" : "acturation des lecteurs pour un abonnement Azure uniquement",
+                "2" : "propriétaires pour un abonnement Azure uniquement",
+                "3" : "n'importe qui",
+                "4" : "tous les utilisateurs qui ont un compte dans Azure Active Directory (Azure AD) lié à un abonnement Azure uniquement"
+
+            },
+            "reponse" : "C"
+
+
+        },{
+            "type": 1,
+            "question" : "Stocker 1 T8 de données dans le stockage Azure Blob coûtera toujours le même prix, quelle que soit la région Azure dans laquelle se trouvent les données.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Lorsque vous utilisez un compte de stockage Azure v2 à usage général, vous n'êtes facturé que pour la quantité de données stockées. Toutes les opérations de lecture et d'écriture sont gratuites.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        },{
+            "type": 1,
+            "question" : "Le transfert de données entre des comptes de stockage Azure dans différentes régions Azure est gratuit.",
+            "proposition" : {
+
+
+            },
+            "reponse" : "F"
+
+
+        }
+    ]
+}

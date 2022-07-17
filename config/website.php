@@ -1,0 +1,1 @@
+<?php return ["config"=> ["nom"=> "MAIRIE DE YAMOUSSOURKO", "theme"=> ["couleur1"=> "primary", "couleur2"=> "orange", "couleur3"=> "grey", "mode_nuit"=> false], "matri_col"=> "SUP", "matri_reg"=> "REG", "mode_nuit"=> true, "pagignate"=> 50, "matri_contr"=> "CT", "matri_super"=> "COL", "n_compte_contri"=> "1458129"]];
