@@ -1657,6 +1657,7 @@ __webpack_require__.r(__webpack_exports__);
         this.editedItem.up_identifiant = this.data_contribuable[this.editedIndex].identifiant !== this.editedItem.identifiant;
         this.editedItem.id = this.data_contribuable[this.editedIndex].id;
         this.editedItem.id_act = this.editedItem.activite[0].id_act;
+        this.editedItem.id_contribuable = this.editedItem.activite[this.choix_activite].id_ct;
       }
 
       if (this.ajout_activite) {
@@ -1665,7 +1666,6 @@ __webpack_require__.r(__webpack_exports__);
 
       this.editedItem.id_qt = this.value_quartier.id_qt;
       this.editedItem.id_taxe = this.value_NtTaxe.id_tax;
-      this.editedItem.id_contribuable = this.editedItem.activite[this.choix_activite].id_ct;
       formData.append("data", JSON.stringify(this.editedItem));
       axios.post(url, formData, configg).then(function (response) {
         if (response.data.success) {

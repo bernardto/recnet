@@ -1114,8 +1114,7 @@ class Collecteur extends Controller
     {
 
 
-
-        //$id = 1218;
+        //$id = request("id");
         $coll = DB::table('collecteur')
             ->select("id_col",
                 "identifiant  as matricule",

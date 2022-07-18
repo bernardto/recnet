@@ -84,7 +84,7 @@ return [
     */
 
     'from' => [
-        'address' => env('test.email@gerddes-aci.org', 'test.email@gerddes-aci.org'),
+        'address' => env('recnet@recnet.gerddes-aci.org', 'recnet@recnet.gerddes-aci.org'),
         'name' => env('RECNET', 'RECNET'),
     ],
 
